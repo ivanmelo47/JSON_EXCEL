@@ -250,9 +250,8 @@ function fillMissingMonths(data) {
             key === "affectedRows"
           )
             zeroRow[key] = 0;
-          else if (key.includes("Tiempo"))
-            zeroRow[key] =
-              "00:00:00"; // formatting matters? '0:00:00' or '00:00:00'. Script uses '0:00:00' usually.
+          else if (key.includes("Tiempo")) zeroRow[key] = "00:00:00";
+          // formatting matters? '0:00:00' or '00:00:00'. Script uses '0:00:00' usually.
           else if (key.includes("Porcentaje")) zeroRow[key] = "0.00";
           else zeroRow[key] = 0; // default numeric
         }
@@ -304,6 +303,164 @@ function fillMissingMonths(data) {
   return filledData;
 }
 
+// --- Pivot Table Logic ---
+
+const UNIT_ORDER = [
+  "Palacio Mundo Imperial",
+  "Princess Mundo Imperial",
+  "Pierre Mundo Imperial",
+];
+
+function sortUnits(units) {
+  return units.sort((a, b) => {
+    const ia = UNIT_ORDER.indexOf(a);
+    const ib = UNIT_ORDER.indexOf(b);
+    if (ia === -1 && ib === -1) return a.localeCompare(b);
+    if (ia === -1) return 1;
+    if (ib === -1) return -1;
+    return ia - ib;
+  });
+}
+
+function generatePivotTables(data) {
+  if (!Array.isArray(data) || data.length === 0) return [];
+
+  // Check available columns to decide what to pivot
+  const sample = data[0];
+  const metrics_to_pivot = [];
+
+  if (sample.hasOwnProperty("Cantidad_Tickets"))
+    metrics_to_pivot.push("Cantidad_Tickets");
+  if (sample.hasOwnProperty("Cantidad_Total_Tickets_Glitch"))
+    metrics_to_pivot.push("Cantidad_Total_Tickets_Glitch");
+  if (sample.hasOwnProperty("Total_Tickets_Mantenimiento"))
+    metrics_to_pivot.push("Total_Tickets_Mantenimiento");
+  if (sample.hasOwnProperty("Total_Tickets_TI"))
+    metrics_to_pivot.push("Total_Tickets_TI");
+  if (sample.hasOwnProperty("Total_Tickets_LostAndFound"))
+    metrics_to_pivot.push("Total_Tickets_LostAndFound");
+
+  // Add compliance or time if available
+  if (sample.hasOwnProperty("Total_Tiempo_Productivo"))
+    metrics_to_pivot.push("Total_Tiempo_Productivo");
+  if (sample.hasOwnProperty("Promedio_Tiempo_Productivo"))
+    metrics_to_pivot.push("Promedio_Tiempo_Productivo");
+  if (sample.hasOwnProperty("Promedio_Tiempo_Estimado"))
+    metrics_to_pivot.push("Promedio_Tiempo_Estimado");
+  if (sample.hasOwnProperty("Porcentaje_Cumplimiento"))
+    metrics_to_pivot.push("Porcentaje_Cumplimiento");
+
+  if (metrics_to_pivot.length === 0) return [];
+
+  const uniqueUnits = [...new Set(data.map((r) => r.Nombre_Unidad))];
+  const units = sortUnits(uniqueUnits);
+
+  // Sort months strictly by our defined 2025 array order
+  const monthIndex = {};
+  MONTHS_2025.forEach((m, i) => (monthIndex[m] = i));
+  const months = [...new Set(data.map((r) => r.Mes_Anio))].sort((a, b) => {
+    const ia = monthIndex[a] !== undefined ? monthIndex[a] : 999;
+    const ib = monthIndex[b] !== undefined ? monthIndex[b] : 999;
+    return ia - ib;
+  });
+
+  const pivotTablesRows = [];
+
+  for (const metric of metrics_to_pivot) {
+    // Create Header
+    // [ "Metric Name", "Palacio", "Pierre", "Princess" ... ]
+    const headerRow = {};
+    headerRow["Metric"] = metric.replace(/_/g, " ").toUpperCase();
+    units.forEach((u) => (headerRow[u] = u)); // Map unit name to column key same as name? Or we need unique keys?
+    // We can just use the Unit Name as the key for the row object.
+
+    // We need to construct rows: { "Metric": "Enero 2025", "Palacio": 123, "Princess": 456 ... }
+
+    const tableRows = [];
+
+    // Header Row object for XLSX
+    // We'll just push arrays actually, simpler for spacers.
+    // But aggregateData returned objects. `json_to_sheet` handles objects.
+    // Let's create an object where keys are consistent.
+    // First key: "Mes" (or Metric Name for title), then Unit names.
+
+    // Let's add a "Title" row before the table
+    pivotTablesRows.push({}); // Spacer
+    pivotTablesRows.push({ pivot_title: `COMPARATIVA: ${metric}` });
+
+    const columnHeader = { Mes: "Mes" };
+    units.forEach((u) => (columnHeader[u] = u));
+    pivotTablesRows.push(columnHeader);
+
+    for (const month of months) {
+      const rowObj = { Mes: month };
+      for (const unit of units) {
+        const record = data.find(
+          (r) => r.Mes_Anio === month && r.Nombre_Unidad === unit
+        );
+        let val = record ? record[metric] : 0;
+
+        // If it's 0 (from our fill function) and metric is numeric, it stays 0.
+        // If metric is formatted string "0:00:00", we might want to keep it or simple.
+        if (val === undefined || val === null) val = 0;
+
+        rowObj[unit] = val;
+      }
+      tableRows.push(rowObj);
+    }
+
+    // Totals Row?
+    const totalRow = { Mes: "TOTAL" };
+    for (const unit of units) {
+      // Calculate column total if numeric
+      // Check first value to see if it looks numeric
+      if (tableRows.length > 0) {
+        const firstVal = tableRows[0][unit];
+        const isTime = typeof firstVal === "string" && firstVal.includes(":");
+        const isPct = metric.includes("Porcentaje");
+
+        if (isTime) {
+          // Sum time
+          const totalSec = tableRows.reduce(
+            (acc, r) => acc + parseDuration(r[unit]),
+            0
+          );
+          totalRow[unit] = formatDuration(totalSec); // Or Average? Usually Total for time, Avg for Avg.
+          // If metric is Promedio_..., we should probably Average the averages (weighted?)
+          // Weighted is hard without weight data here. Simple Average?
+          if (metric.startsWith("Promedio")) {
+            const count = tableRows.filter(
+              (r) => parseDuration(r[unit]) > 0
+            ).length;
+            if (count > 0) totalRow[unit] = formatDuration(totalSec / count);
+          }
+        } else if (isPct) {
+          // Average percentage
+          const validRows = tableRows.filter((r) => Number(r[unit]) > 0);
+          const sum = validRows.reduce(
+            (acc, r) => acc + parseFloat(r[unit]),
+            0
+          );
+          totalRow[unit] =
+            validRows.length > 0 ? (sum / validRows.length).toFixed(2) : "0.00";
+        } else {
+          // Sum
+          const sum = tableRows.reduce(
+            (acc, r) => acc + (Number(r[unit]) || 0),
+            0
+          );
+          totalRow[unit] = sum;
+        }
+      }
+    }
+    tableRows.push(totalRow);
+
+    pivotTablesRows.push(...tableRows);
+  }
+
+  return pivotTablesRows;
+}
+
 function processDirectoryToWorkbook(directoryPath, outputFilename) {
   if (!fs.existsSync(directoryPath)) return;
 
@@ -328,25 +485,83 @@ function processDirectoryToWorkbook(directoryPath, outputFilename) {
       if (Array.isArray(data) && data.length > 0) {
         const sheetName = cleanSheetName(file.name);
 
-        // 0. Fill Missing Months (Only for General files likely? User said "En los generales")
-        // Check if it has the required columns to be safe
+        // 0. Fill Missing Months
         if (data[0].Mes_Anio && data[0].Nombre_Unidad) {
           data = fillMissingMonths(data);
         }
 
-        // 1. Generate Aggregated Rows
+        // 1. Generate Aggregated Rows (Annual Accumulation)
         const accumulated = aggregateData(file.name, data);
 
-        // 2. Combine Data with spacer
-        const finalData = [...data];
+        // 2. Generate Pivot Data (Matrices)
+        const pivotData = generatePivotTables(data);
 
+        // 3. Combine Data
+        // (This part doesn't matter much since we build AOA directly below)
+
+        // json_to_sheet might struggle with mixed keys if we are not careful.
+        // explicitly using `skipHeader: false` (default) will try to union all keys.
+        // Ideally, we pass an array of arrays to `aoa_to_sheet` for complex layouts,
+        // but `json_to_sheet` with mixed objects usually works by creating sparse columns.
+        // However, `pivotData` keys (Unit Names) might not exist in `data`.
+        // This means new columns will be added to the right matching the Unit Names.
+        // This effectively puts the table "below" but with different column alignment.
+        // Users might prefer it aligned to A, B, C.
+        // If we want to force alignment to A, B, C, we need AOA (Array of Arrays) conversion.
+
+        // Let's Convert everything to AOA to ensure visual stacking is vertical, not diagonal.
+
+        // -- CONVERT TO AOA --
+        // 1. Original Data Headers
+        const originalKeys = Object.keys(data[0]);
+        const sheetAOA = [originalKeys];
+        data.forEach((r) => sheetAOA.push(originalKeys.map((k) => r[k])));
+
+        // 2. Accumulation
         if (accumulated.length > 0) {
-          finalData.push({}); // Spacer
-          finalData.push({}); // Spacer
-          finalData.push(...accumulated);
+          sheetAOA.push([]); // Spacer
+          sheetAOA.push([]); // Spacer
+          // Header for accumulation (assume same keys + new ones?)
+          // Accumulation has same keys mostly.
+          const accKeys = Object.keys(accumulated[0]);
+          sheetAOA.push(accKeys);
+          accumulated.forEach((r) => sheetAOA.push(accKeys.map((k) => r[k])));
         }
 
-        const worksheet = XLSX.utils.json_to_sheet(finalData);
+        // 3. Pivot Tables
+        if (pivotData.length > 0) {
+          // pivotData is a list of objects, some are spacers, some are headers.
+          // We need to interpret them.
+          // The logic above pushed objects. Let's iterate.
+
+          sheetAOA.push([]); // Spacer
+
+          // Get units once for consistent column order in pivot tables
+          const uniqueUnits = [...new Set(data.map((r) => r.Nombre_Unidad))];
+          const unitsForPivot = sortUnits(uniqueUnits);
+
+          for (const row of pivotData) {
+            if (Object.keys(row).length === 0) {
+              sheetAOA.push([]); // Spacer
+              continue;
+            }
+            if (row.pivot_title) {
+              sheetAOA.push([row.pivot_title]);
+              continue;
+            }
+            // It's a data row or header row (simulated as object)
+            // Keys might be: Mes, Palacio, Princess...
+            // We want to map these to Col A, Col B, Col C...
+
+            // To be safe, let's enforce order: Mes, then Units sorted.
+            const line = [];
+            line.push(row["Mes"] || "");
+            unitsForPivot.forEach((u) => line.push(row[u]));
+            sheetAOA.push(line);
+          }
+        }
+
+        const worksheet = XLSX.utils.aoa_to_sheet(sheetAOA);
 
         let finalSheetName = sheetName;
         let counter = 1;
