@@ -1,0 +1,362 @@
+[
+  {
+    "Mes_Anio": "Enero 2025",
+    "Nombre_Unidad": "Palacio Mundo Imperial",
+    "Total_Tickets_Mantenimiento": 2,
+    "Cantidad_Pendiente": "0",
+    "Cantidad_En_Progreso": "0",
+    "Cantidad_Retrasado": "0",
+    "Cantidad_Completado": "0",
+    "Cantidad_Cerrado": "2"
+  },
+  {
+    "Mes_Anio": "Enero 2025",
+    "Nombre_Unidad": "Pierre Mundo Imperial",
+    "Total_Tickets_Mantenimiento": 26,
+    "Cantidad_Pendiente": "0",
+    "Cantidad_En_Progreso": "0",
+    "Cantidad_Retrasado": "0",
+    "Cantidad_Completado": "0",
+    "Cantidad_Cerrado": "26"
+  },
+  {
+    "Mes_Anio": "Enero 2025",
+    "Nombre_Unidad": "Princess Mundo Imperial",
+    "Total_Tickets_Mantenimiento": 238,
+    "Cantidad_Pendiente": "0",
+    "Cantidad_En_Progreso": "0",
+    "Cantidad_Retrasado": "1",
+    "Cantidad_Completado": "34",
+    "Cantidad_Cerrado": "203"
+  },
+  {
+    "Mes_Anio": "Febrero 2025",
+    "Nombre_Unidad": "Palacio Mundo Imperial",
+    "Total_Tickets_Mantenimiento": 80,
+    "Cantidad_Pendiente": "0",
+    "Cantidad_En_Progreso": "0",
+    "Cantidad_Retrasado": "0",
+    "Cantidad_Completado": "4",
+    "Cantidad_Cerrado": "76"
+  },
+  {
+    "Mes_Anio": "Febrero 2025",
+    "Nombre_Unidad": "Pierre Mundo Imperial",
+    "Total_Tickets_Mantenimiento": 13,
+    "Cantidad_Pendiente": "0",
+    "Cantidad_En_Progreso": "0",
+    "Cantidad_Retrasado": "0",
+    "Cantidad_Completado": "5",
+    "Cantidad_Cerrado": "8"
+  },
+  {
+    "Mes_Anio": "Febrero 2025",
+    "Nombre_Unidad": "Princess Mundo Imperial",
+    "Total_Tickets_Mantenimiento": 535,
+    "Cantidad_Pendiente": "0",
+    "Cantidad_En_Progreso": "0",
+    "Cantidad_Retrasado": "3",
+    "Cantidad_Completado": "147",
+    "Cantidad_Cerrado": "385"
+  },
+  {
+    "Mes_Anio": "Marzo 2025",
+    "Nombre_Unidad": "Palacio Mundo Imperial",
+    "Total_Tickets_Mantenimiento": 96,
+    "Cantidad_Pendiente": "0",
+    "Cantidad_En_Progreso": "0",
+    "Cantidad_Retrasado": "0",
+    "Cantidad_Completado": "2",
+    "Cantidad_Cerrado": "94"
+  },
+  {
+    "Mes_Anio": "Marzo 2025",
+    "Nombre_Unidad": "Pierre Mundo Imperial",
+    "Total_Tickets_Mantenimiento": 4,
+    "Cantidad_Pendiente": "0",
+    "Cantidad_En_Progreso": "0",
+    "Cantidad_Retrasado": "0",
+    "Cantidad_Completado": "0",
+    "Cantidad_Cerrado": "4"
+  },
+  {
+    "Mes_Anio": "Marzo 2025",
+    "Nombre_Unidad": "Princess Mundo Imperial",
+    "Total_Tickets_Mantenimiento": 159,
+    "Cantidad_Pendiente": "0",
+    "Cantidad_En_Progreso": "0",
+    "Cantidad_Retrasado": "7",
+    "Cantidad_Completado": "14",
+    "Cantidad_Cerrado": "138"
+  },
+  {
+    "Mes_Anio": "Abril 2025",
+    "Nombre_Unidad": "Palacio Mundo Imperial",
+    "Total_Tickets_Mantenimiento": 339,
+    "Cantidad_Pendiente": "0",
+    "Cantidad_En_Progreso": "0",
+    "Cantidad_Retrasado": "0",
+    "Cantidad_Completado": "5",
+    "Cantidad_Cerrado": "334"
+  },
+  {
+    "Mes_Anio": "Abril 2025",
+    "Nombre_Unidad": "Pierre Mundo Imperial",
+    "Total_Tickets_Mantenimiento": 7,
+    "Cantidad_Pendiente": "0",
+    "Cantidad_En_Progreso": "0",
+    "Cantidad_Retrasado": "0",
+    "Cantidad_Completado": "0",
+    "Cantidad_Cerrado": "7"
+  },
+  {
+    "Mes_Anio": "Abril 2025",
+    "Nombre_Unidad": "Princess Mundo Imperial",
+    "Total_Tickets_Mantenimiento": 209,
+    "Cantidad_Pendiente": "0",
+    "Cantidad_En_Progreso": "3",
+    "Cantidad_Retrasado": "0",
+    "Cantidad_Completado": "39",
+    "Cantidad_Cerrado": "167"
+  },
+  {
+    "Mes_Anio": "Mayo 2025",
+    "Nombre_Unidad": "Palacio Mundo Imperial",
+    "Total_Tickets_Mantenimiento": 227,
+    "Cantidad_Pendiente": "0",
+    "Cantidad_En_Progreso": "0",
+    "Cantidad_Retrasado": "0",
+    "Cantidad_Completado": "0",
+    "Cantidad_Cerrado": "227"
+  },
+  {
+    "Mes_Anio": "Mayo 2025",
+    "Nombre_Unidad": "Pierre Mundo Imperial",
+    "Total_Tickets_Mantenimiento": 5,
+    "Cantidad_Pendiente": "0",
+    "Cantidad_En_Progreso": "0",
+    "Cantidad_Retrasado": "0",
+    "Cantidad_Completado": "3",
+    "Cantidad_Cerrado": "2"
+  },
+  {
+    "Mes_Anio": "Mayo 2025",
+    "Nombre_Unidad": "Princess Mundo Imperial",
+    "Total_Tickets_Mantenimiento": 255,
+    "Cantidad_Pendiente": "0",
+    "Cantidad_En_Progreso": "1",
+    "Cantidad_Retrasado": "1",
+    "Cantidad_Completado": "52",
+    "Cantidad_Cerrado": "201"
+  },
+  {
+    "Mes_Anio": "Junio 2025",
+    "Nombre_Unidad": "Palacio Mundo Imperial",
+    "Total_Tickets_Mantenimiento": 937,
+    "Cantidad_Pendiente": "0",
+    "Cantidad_En_Progreso": "0",
+    "Cantidad_Retrasado": "0",
+    "Cantidad_Completado": "38",
+    "Cantidad_Cerrado": "899"
+  },
+  {
+    "Mes_Anio": "Junio 2025",
+    "Nombre_Unidad": "Pierre Mundo Imperial",
+    "Total_Tickets_Mantenimiento": 8,
+    "Cantidad_Pendiente": "0",
+    "Cantidad_En_Progreso": "0",
+    "Cantidad_Retrasado": "0",
+    "Cantidad_Completado": "6",
+    "Cantidad_Cerrado": "2"
+  },
+  {
+    "Mes_Anio": "Junio 2025",
+    "Nombre_Unidad": "Princess Mundo Imperial",
+    "Total_Tickets_Mantenimiento": 249,
+    "Cantidad_Pendiente": "0",
+    "Cantidad_En_Progreso": "3",
+    "Cantidad_Retrasado": "6",
+    "Cantidad_Completado": "162",
+    "Cantidad_Cerrado": "78"
+  },
+  {
+    "Mes_Anio": "Julio 2025",
+    "Nombre_Unidad": "Palacio Mundo Imperial",
+    "Total_Tickets_Mantenimiento": 344,
+    "Cantidad_Pendiente": "0",
+    "Cantidad_En_Progreso": "0",
+    "Cantidad_Retrasado": "0",
+    "Cantidad_Completado": "2",
+    "Cantidad_Cerrado": "342"
+  },
+  {
+    "Mes_Anio": "Julio 2025",
+    "Nombre_Unidad": "Pierre Mundo Imperial",
+    "Total_Tickets_Mantenimiento": 5,
+    "Cantidad_Pendiente": "0",
+    "Cantidad_En_Progreso": "0",
+    "Cantidad_Retrasado": "0",
+    "Cantidad_Completado": "4",
+    "Cantidad_Cerrado": "1"
+  },
+  {
+    "Mes_Anio": "Julio 2025",
+    "Nombre_Unidad": "Princess Mundo Imperial",
+    "Total_Tickets_Mantenimiento": 179,
+    "Cantidad_Pendiente": "0",
+    "Cantidad_En_Progreso": "0",
+    "Cantidad_Retrasado": "0",
+    "Cantidad_Completado": "150",
+    "Cantidad_Cerrado": "29"
+  },
+  {
+    "Mes_Anio": "Agosto 2025",
+    "Nombre_Unidad": "Palacio Mundo Imperial",
+    "Total_Tickets_Mantenimiento": 87,
+    "Cantidad_Pendiente": "0",
+    "Cantidad_En_Progreso": "0",
+    "Cantidad_Retrasado": "0",
+    "Cantidad_Completado": "1",
+    "Cantidad_Cerrado": "86"
+  },
+  {
+    "Mes_Anio": "Agosto 2025",
+    "Nombre_Unidad": "Pierre Mundo Imperial",
+    "Total_Tickets_Mantenimiento": 1,
+    "Cantidad_Pendiente": "0",
+    "Cantidad_En_Progreso": "0",
+    "Cantidad_Retrasado": "0",
+    "Cantidad_Completado": "0",
+    "Cantidad_Cerrado": "1"
+  },
+  {
+    "Mes_Anio": "Agosto 2025",
+    "Nombre_Unidad": "Princess Mundo Imperial",
+    "Total_Tickets_Mantenimiento": 226,
+    "Cantidad_Pendiente": "0",
+    "Cantidad_En_Progreso": "0",
+    "Cantidad_Retrasado": "67",
+    "Cantidad_Completado": "115",
+    "Cantidad_Cerrado": "44"
+  },
+  {
+    "Mes_Anio": "Septiembre 2025",
+    "Nombre_Unidad": "Palacio Mundo Imperial",
+    "Total_Tickets_Mantenimiento": 28,
+    "Cantidad_Pendiente": "0",
+    "Cantidad_En_Progreso": "0",
+    "Cantidad_Retrasado": "0",
+    "Cantidad_Completado": "11",
+    "Cantidad_Cerrado": "17"
+  },
+  {
+    "Mes_Anio": "Septiembre 2025",
+    "Nombre_Unidad": "Pierre Mundo Imperial",
+    "Total_Tickets_Mantenimiento": 4,
+    "Cantidad_Pendiente": "0",
+    "Cantidad_En_Progreso": "0",
+    "Cantidad_Retrasado": "0",
+    "Cantidad_Completado": "2",
+    "Cantidad_Cerrado": "2"
+  },
+  {
+    "Mes_Anio": "Septiembre 2025",
+    "Nombre_Unidad": "Princess Mundo Imperial",
+    "Total_Tickets_Mantenimiento": 239,
+    "Cantidad_Pendiente": "0",
+    "Cantidad_En_Progreso": "0",
+    "Cantidad_Retrasado": "5",
+    "Cantidad_Completado": "188",
+    "Cantidad_Cerrado": "46"
+  },
+  {
+    "Mes_Anio": "Octubre 2025",
+    "Nombre_Unidad": "Palacio Mundo Imperial",
+    "Total_Tickets_Mantenimiento": 5,
+    "Cantidad_Pendiente": "0",
+    "Cantidad_En_Progreso": "0",
+    "Cantidad_Retrasado": "0",
+    "Cantidad_Completado": "3",
+    "Cantidad_Cerrado": "2"
+  },
+  {
+    "Mes_Anio": "Octubre 2025",
+    "Nombre_Unidad": "Pierre Mundo Imperial",
+    "Total_Tickets_Mantenimiento": 53,
+    "Cantidad_Pendiente": "0",
+    "Cantidad_En_Progreso": "1",
+    "Cantidad_Retrasado": "1",
+    "Cantidad_Completado": "17",
+    "Cantidad_Cerrado": "34"
+  },
+  {
+    "Mes_Anio": "Octubre 2025",
+    "Nombre_Unidad": "Princess Mundo Imperial",
+    "Total_Tickets_Mantenimiento": 314,
+    "Cantidad_Pendiente": "0",
+    "Cantidad_En_Progreso": "0",
+    "Cantidad_Retrasado": "9",
+    "Cantidad_Completado": "261",
+    "Cantidad_Cerrado": "44"
+  },
+  {
+    "Mes_Anio": "Noviembre 2025",
+    "Nombre_Unidad": "Palacio Mundo Imperial",
+    "Total_Tickets_Mantenimiento": 52,
+    "Cantidad_Pendiente": "0",
+    "Cantidad_En_Progreso": "0",
+    "Cantidad_Retrasado": "0",
+    "Cantidad_Completado": "52",
+    "Cantidad_Cerrado": "0"
+  },
+  {
+    "Mes_Anio": "Noviembre 2025",
+    "Nombre_Unidad": "Pierre Mundo Imperial",
+    "Total_Tickets_Mantenimiento": 16,
+    "Cantidad_Pendiente": "0",
+    "Cantidad_En_Progreso": "0",
+    "Cantidad_Retrasado": "0",
+    "Cantidad_Completado": "16",
+    "Cantidad_Cerrado": "0"
+  },
+  {
+    "Mes_Anio": "Noviembre 2025",
+    "Nombre_Unidad": "Princess Mundo Imperial",
+    "Total_Tickets_Mantenimiento": 228,
+    "Cantidad_Pendiente": "0",
+    "Cantidad_En_Progreso": "0",
+    "Cantidad_Retrasado": "0",
+    "Cantidad_Completado": "188",
+    "Cantidad_Cerrado": "40"
+  },
+  {
+    "Mes_Anio": "Diciembre 2025",
+    "Nombre_Unidad": "Palacio Mundo Imperial",
+    "Total_Tickets_Mantenimiento": 27,
+    "Cantidad_Pendiente": "0",
+    "Cantidad_En_Progreso": "0",
+    "Cantidad_Retrasado": "0",
+    "Cantidad_Completado": "27",
+    "Cantidad_Cerrado": "0"
+  },
+  {
+    "Mes_Anio": "Diciembre 2025",
+    "Nombre_Unidad": "Pierre Mundo Imperial",
+    "Total_Tickets_Mantenimiento": 6,
+    "Cantidad_Pendiente": "3",
+    "Cantidad_En_Progreso": "0",
+    "Cantidad_Retrasado": "0",
+    "Cantidad_Completado": "3",
+    "Cantidad_Cerrado": "0"
+  },
+  {
+    "Mes_Anio": "Diciembre 2025",
+    "Nombre_Unidad": "Princess Mundo Imperial",
+    "Total_Tickets_Mantenimiento": 168,
+    "Cantidad_Pendiente": "0",
+    "Cantidad_En_Progreso": "0",
+    "Cantidad_Retrasado": "1",
+    "Cantidad_Completado": "138",
+    "Cantidad_Cerrado": "29"
+  }
+]

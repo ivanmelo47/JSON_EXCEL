@@ -1,0 +1,139 @@
+✅ TICKETS GENERAL (SUMATORIA POR UNIDAD)
+
+SET lc_time_names = 'es_ES';
+
+SELECT
+    u.nombreUnidad AS Nombre_Unidad,
+    COUNT(*) AS Cantidad_Tickets,
+
+    -- Total de tiempo productivo
+    CONCAT(
+        FLOOR(SUM(TIME_TO_SEC(mt.tiempoProduccionTicket)) / 3600), ':',
+        LPAD(FLOOR((SUM(TIME_TO_SEC(mt.tiempoProduccionTicket)) % 3600) / 60), 2, '0'), ':',
+        LPAD(SUM(TIME_TO_SEC(mt.tiempoProduccionTicket)) % 60, 2, '0')
+    ) AS Total_Tiempo_Productivo,
+
+    -- Promedios
+    SEC_TO_TIME(AVG(TIME_TO_SEC(mt.tiempoProduccionTicket))) AS Promedio_Tiempo_Productivo,
+    SEC_TO_TIME(AVG(et.tiempoEtiqueta * 60)) AS Promedio_Tiempo_Estimado,
+
+    -- Porcentaje de cumplimiento
+    CASE 
+        WHEN AVG(TIME_TO_SEC(mt.tiempoProduccionTicket)) > 0 THEN 
+            ROUND(
+                (AVG(et.tiempoEtiqueta * 60) / AVG(TIME_TO_SEC(mt.tiempoProduccionTicket))) * 100, 2
+            )
+        ELSE 0
+    END AS Porcentaje_Cumplimiento
+
+FROM moduloticket mt
+JOIN habitacionlugar hl ON mt.habitacionLugar_idHL = hl.idHL
+JOIN areas a ON hl.areas_idAreas = a.idAreas
+JOIN unidad u ON a.unidad_idUnidad = u.idUnidad
+JOIN etiqueta et ON mt.etiqueta_idEtiqueta = et.idEtiqueta
+
+WHERE mt.estatusTicket = 'Cerrado'
+AND mt.fCreacionTicket BETWEEN '2025-01-01 00:00:00'
+                          AND '2025-12-31 23:59:59'
+
+GROUP BY u.nombreUnidad
+ORDER BY u.nombreUnidad;
+
+
+✅ GLITCHES GENERALES (SUMATORIA POR UNIDAD)
+SET lc_time_names = 'es_ES';
+
+SELECT
+    u.nombreUnidad AS Nombre_Unidad,
+
+    COUNT(*) AS Cantidad_Total_Tickets_Glitch,
+    SUM(CASE WHEN mg.estatusGlitch = 'Pendiente' THEN 1 ELSE 0 END) AS Cantidad_Pendientes,
+    SUM(CASE WHEN mg.estatusGlitch = 'Completado' THEN 1 ELSE 0 END) AS Cantidad_Completados
+
+FROM moduloglitch mg
+JOIN habitacionlugar hl ON mg.habitacionLugar_idHL = hl.idHL
+JOIN areas a ON hl.areas_idAreas = a.idAreas
+JOIN unidad u ON a.unidad_idUnidad = u.idUnidad
+
+WHERE mg.fcreacionGlitch BETWEEN '2025-01-01 00:00:00'
+                            AND '2025-12-31 23:59:59'
+
+GROUP BY u.nombreUnidad
+ORDER BY u.nombreUnidad;
+
+
+✅ TICKETS GENERAL MANTENIMIENTO (SUMATORIA POR UNIDAD)
+SET lc_time_names = 'es_ES';
+
+SELECT
+    u.nombreUnidad AS Nombre_Unidad,
+
+    COUNT(*) AS Total_Tickets_Mantenimiento,
+
+    SUM(CASE WHEN mm.estatusMantenimiento = 'Pendiente' THEN 1 ELSE 0 END) AS Cantidad_Pendiente,
+    SUM(CASE WHEN mm.estatusMantenimiento = 'En progreso' THEN 1 ELSE 0 END) AS Cantidad_En_Progreso,
+    SUM(CASE WHEN mm.estatusMantenimiento = 'Retrasado' THEN 1 ELSE 0 END) AS Cantidad_Retrasado,
+    SUM(CASE WHEN mm.estatusMantenimiento = 'Completado' THEN 1 ELSE 0 END) AS Cantidad_Completado,
+    SUM(CASE WHEN mm.estatusMantenimiento = 'Cerrado' THEN 1 ELSE 0 END) AS Cantidad_Cerrado
+
+FROM modulomantenimiento mm
+JOIN habitacionlugar hl ON mm.habitacionLugar_idHL = hl.idHL
+JOIN areas a ON hl.areas_idAreas = a.idAreas
+JOIN unidad u ON a.unidad_idUnidad = u.idUnidad
+
+WHERE mm.fCreacionMantenimiento BETWEEN '2025-01-01 00:00:00'
+                                   AND '2025-12-31 23:59:59'
+
+GROUP BY u.nombreUnidad
+ORDER BY u.nombreUnidad;
+
+
+✅ TICKETS GENERAL TECNOLOGÍA (SUMATORIA POR UNIDAD)
+SET lc_time_names = 'es_ES';
+
+SELECT
+    u.nombreUnidad AS Nombre_Unidad,
+
+    COUNT(*) AS Total_Tickets_TI,
+
+    SUM(CASE WHEN mt.estatusTi = 'Pendiente' THEN 1 ELSE 0 END) AS Cantidad_Pendiente,
+    SUM(CASE WHEN mt.estatusTi = 'En progreso' THEN 1 ELSE 0 END) AS Cantidad_En_Progreso,
+    SUM(CASE WHEN mt.estatusTi = 'Retrasado' THEN 1 ELSE 0 END) AS Cantidad_Retrasado,
+    SUM(CASE WHEN mt.estatusTi = 'Completado' THEN 1 ELSE 0 END) AS Cantidad_Completado,
+    SUM(CASE WHEN mt.estatusTi = 'Cerrado' THEN 1 ELSE 0 END) AS Cantidad_Cerrado
+
+FROM moduloti mt
+JOIN habitacionlugar hl ON mt.habitacionLugar_idHL = hl.idHL
+JOIN areas a ON hl.areas_idAreas = a.idAreas
+JOIN unidad u ON a.unidad_idUnidad = u.idUnidad
+
+WHERE mt.fCreacionTi BETWEEN '2025-01-01 00:00:00'
+                        AND '2025-12-31 23:59:59'
+
+GROUP BY u.nombreUnidad
+ORDER BY u.nombreUnidad;
+
+
+✅ LOST AND FOUND GENERAL (SUMATORIA POR UNIDAD)
+SET lc_time_names = 'es_ES';
+
+SELECT
+    u.nombreUnidad AS Nombre_Unidad,
+
+    COUNT(*) AS Total_Tickets_LostAndFound,
+
+    SUM(CASE WHEN mlf.estatusLyf = 'Pendiente' THEN 1 ELSE 0 END) AS Cantidad_Pendiente,
+    SUM(CASE WHEN mlf.estatusLyf = 'Vencido' THEN 1 ELSE 0 END) AS Cantidad_Vencido,
+    SUM(CASE WHEN mlf.estatusLyf = 'Completado' THEN 1 ELSE 0 END) AS Cantidad_Completado
+
+FROM modulolostandfound mlf
+JOIN habitacionlugar hl ON mlf.habitacionLugar_idHL = hl.idHL
+JOIN areas a ON hl.areas_idAreas = a.idAreas
+JOIN unidad u ON a.unidad_idUnidad = u.idUnidad
+
+WHERE mlf.fEntradaObjetoLyf BETWEEN '2025-01-01 00:00:00'
+                              AND '2025-12-31 23:59:59'
+
+GROUP BY u.nombreUnidad
+ORDER BY u.nombreUnidad;
+

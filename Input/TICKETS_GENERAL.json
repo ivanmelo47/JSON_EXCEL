@@ -1,0 +1,317 @@
+[
+  {
+    "Mes_Anio": "Enero 2025",
+    "Nombre_Unidad": "Pierre Mundo Imperial",
+    "Cantidad_Tickets": 1910,
+    "Total_Tiempo_Productivo": "2966:35:53",
+    "Promedio_Tiempo_Productivo": "01:33:11.493717",
+    "Promedio_Tiempo_Estimado": "00:23:53.7172",
+    "Porcentaje_Cumplimiento": "25.64"
+  },
+  {
+    "Mes_Anio": "Enero 2025",
+    "Nombre_Unidad": "Princess Mundo Imperial",
+    "Cantidad_Tickets": 1874,
+    "Total_Tiempo_Productivo": "2790:00:30",
+    "Promedio_Tiempo_Productivo": "01:29:19.674493",
+    "Promedio_Tiempo_Estimado": "00:22:33.6819",
+    "Porcentaje_Cumplimiento": "25.26"
+  },
+  {
+    "Mes_Anio": "Febrero 2025",
+    "Nombre_Unidad": "Palacio Mundo Imperial",
+    "Cantidad_Tickets": 674,
+    "Total_Tiempo_Productivo": "1665:22:31",
+    "Promedio_Tiempo_Productivo": "02:28:15.179525",
+    "Promedio_Tiempo_Estimado": "00:27:32.2255",
+    "Porcentaje_Cumplimiento": "18.57"
+  },
+  {
+    "Mes_Anio": "Febrero 2025",
+    "Nombre_Unidad": "Pierre Mundo Imperial",
+    "Cantidad_Tickets": 1384,
+    "Total_Tiempo_Productivo": "1574:31:39",
+    "Promedio_Tiempo_Productivo": "01:08:15.591763",
+    "Promedio_Tiempo_Estimado": "00:22:20.4624",
+    "Porcentaje_Cumplimiento": "32.73"
+  },
+  {
+    "Mes_Anio": "Febrero 2025",
+    "Nombre_Unidad": "Princess Mundo Imperial",
+    "Cantidad_Tickets": 2377,
+    "Total_Tiempo_Productivo": "4305:21:1.",
+    "Promedio_Tiempo_Productivo": "01:48:40.513672",
+    "Promedio_Tiempo_Estimado": "00:23:11.0811",
+    "Porcentaje_Cumplimiento": "21.33"
+  },
+  {
+    "Mes_Anio": "Marzo 2025",
+    "Nombre_Unidad": "Palacio Mundo Imperial",
+    "Cantidad_Tickets": 732,
+    "Total_Tiempo_Productivo": "1608:12:28",
+    "Promedio_Tiempo_Productivo": "02:11:49.218579",
+    "Promedio_Tiempo_Estimado": "00:27:29.1803",
+    "Porcentaje_Cumplimiento": "20.85"
+  },
+  {
+    "Mes_Anio": "Marzo 2025",
+    "Nombre_Unidad": "Pierre Mundo Imperial",
+    "Cantidad_Tickets": 1409,
+    "Total_Tiempo_Productivo": "2312:25:14",
+    "Promedio_Tiempo_Productivo": "01:38:28.243435",
+    "Promedio_Tiempo_Estimado": "00:23:03.9602",
+    "Porcentaje_Cumplimiento": "23.42"
+  },
+  {
+    "Mes_Anio": "Marzo 2025",
+    "Nombre_Unidad": "Princess Mundo Imperial",
+    "Cantidad_Tickets": 2709,
+    "Total_Tiempo_Productivo": "2329:14:47",
+    "Promedio_Tiempo_Productivo": "00:51:35.344038",
+    "Promedio_Tiempo_Estimado": "00:22:58.9590",
+    "Porcentaje_Cumplimiento": "44.55"
+  },
+  {
+    "Mes_Anio": "Abril 2025",
+    "Nombre_Unidad": "Palacio Mundo Imperial",
+    "Cantidad_Tickets": 2038,
+    "Total_Tiempo_Productivo": "5545:01:8.",
+    "Promedio_Tiempo_Productivo": "02:43:14.930814",
+    "Promedio_Tiempo_Estimado": "00:24:27.0264",
+    "Porcentaje_Cumplimiento": "14.98"
+  },
+  {
+    "Mes_Anio": "Abril 2025",
+    "Nombre_Unidad": "Pierre Mundo Imperial",
+    "Cantidad_Tickets": 1294,
+    "Total_Tiempo_Productivo": "1102:33:25",
+    "Promedio_Tiempo_Productivo": "00:51:07.391808",
+    "Promedio_Tiempo_Estimado": "00:23:25.8732",
+    "Porcentaje_Cumplimiento": "45.83"
+  },
+  {
+    "Mes_Anio": "Abril 2025",
+    "Nombre_Unidad": "Princess Mundo Imperial",
+    "Cantidad_Tickets": 2930,
+    "Total_Tiempo_Productivo": "2579:14:29",
+    "Promedio_Tiempo_Productivo": "00:52:49.033788",
+    "Promedio_Tiempo_Estimado": "00:22:55.4948",
+    "Porcentaje_Cumplimiento": "43.40"
+  },
+  {
+    "Mes_Anio": "Mayo 2025",
+    "Nombre_Unidad": "Palacio Mundo Imperial",
+    "Cantidad_Tickets": 1870,
+    "Total_Tiempo_Productivo": "9807:03:42",
+    "Promedio_Tiempo_Productivo": "05:14:39.904812",
+    "Promedio_Tiempo_Estimado": "00:24:01.2834",
+    "Porcentaje_Cumplimiento": "7.63"
+  },
+  {
+    "Mes_Anio": "Mayo 2025",
+    "Nombre_Unidad": "Pierre Mundo Imperial",
+    "Cantidad_Tickets": 1261,
+    "Total_Tiempo_Productivo": "1102:44:14",
+    "Promedio_Tiempo_Productivo": "00:52:28.179222",
+    "Promedio_Tiempo_Estimado": "00:22:57.0023",
+    "Porcentaje_Cumplimiento": "43.74"
+  },
+  {
+    "Mes_Anio": "Mayo 2025",
+    "Nombre_Unidad": "Princess Mundo Imperial",
+    "Cantidad_Tickets": 2702,
+    "Total_Tiempo_Productivo": "2664:04:50",
+    "Promedio_Tiempo_Productivo": "00:59:09.478164",
+    "Promedio_Tiempo_Estimado": "00:22:44.1006",
+    "Porcentaje_Cumplimiento": "38.43"
+  },
+  {
+    "Mes_Anio": "Junio 2025",
+    "Nombre_Unidad": "Palacio Mundo Imperial",
+    "Cantidad_Tickets": 1502,
+    "Total_Tiempo_Productivo": "6481:15:49",
+    "Promedio_Tiempo_Productivo": "04:18:54.320239",
+    "Promedio_Tiempo_Estimado": "00:23:14.9400",
+    "Porcentaje_Cumplimiento": "8.98"
+  },
+  {
+    "Mes_Anio": "Junio 2025",
+    "Nombre_Unidad": "Pierre Mundo Imperial",
+    "Cantidad_Tickets": 747,
+    "Total_Tiempo_Productivo": "980:04:48",
+    "Promedio_Tiempo_Productivo": "01:18:43.277108",
+    "Promedio_Tiempo_Estimado": "00:22:21.3654",
+    "Porcentaje_Cumplimiento": "28.40"
+  },
+  {
+    "Mes_Anio": "Junio 2025",
+    "Nombre_Unidad": "Princess Mundo Imperial",
+    "Cantidad_Tickets": 1290,
+    "Total_Tiempo_Productivo": "2476:24:39",
+    "Promedio_Tiempo_Productivo": "01:55:10.913953",
+    "Promedio_Tiempo_Estimado": "00:23:01.3953",
+    "Porcentaje_Cumplimiento": "19.99"
+  },
+  {
+    "Mes_Anio": "Julio 2025",
+    "Nombre_Unidad": "Palacio Mundo Imperial",
+    "Cantidad_Tickets": 1527,
+    "Total_Tiempo_Productivo": "6076:22:4.",
+    "Promedio_Tiempo_Productivo": "03:58:45.425016",
+    "Promedio_Tiempo_Estimado": "00:25:54.0275",
+    "Porcentaje_Cumplimiento": "10.85"
+  },
+  {
+    "Mes_Anio": "Julio 2025",
+    "Nombre_Unidad": "Pierre Mundo Imperial",
+    "Cantidad_Tickets": 1306,
+    "Total_Tiempo_Productivo": "1262:03:45",
+    "Promedio_Tiempo_Productivo": "00:57:58.885911",
+    "Promedio_Tiempo_Estimado": "00:23:05.6049",
+    "Porcentaje_Cumplimiento": "39.83"
+  },
+  {
+    "Mes_Anio": "Julio 2025",
+    "Nombre_Unidad": "Princess Mundo Imperial",
+    "Cantidad_Tickets": 2714,
+    "Total_Tiempo_Productivo": "3153:01:10",
+    "Promedio_Tiempo_Productivo": "01:09:42.339719",
+    "Promedio_Tiempo_Estimado": "00:22:51.3338",
+    "Porcentaje_Cumplimiento": "32.79"
+  },
+  {
+    "Mes_Anio": "Agosto 2025",
+    "Nombre_Unidad": "Palacio Mundo Imperial",
+    "Cantidad_Tickets": 1640,
+    "Total_Tiempo_Productivo": "3567:25:3.",
+    "Promedio_Tiempo_Productivo": "02:10:30.916463",
+    "Promedio_Tiempo_Estimado": "00:26:24.8780",
+    "Porcentaje_Cumplimiento": "20.24"
+  },
+  {
+    "Mes_Anio": "Agosto 2025",
+    "Nombre_Unidad": "Pierre Mundo Imperial",
+    "Cantidad_Tickets": 1438,
+    "Total_Tiempo_Productivo": "1521:38:53",
+    "Promedio_Tiempo_Productivo": "01:03:29.410987",
+    "Promedio_Tiempo_Estimado": "00:23:31.9610",
+    "Porcentaje_Cumplimiento": "37.07"
+  },
+  {
+    "Mes_Anio": "Agosto 2025",
+    "Nombre_Unidad": "Princess Mundo Imperial",
+    "Cantidad_Tickets": 2789,
+    "Total_Tiempo_Productivo": "2586:56:25",
+    "Promedio_Tiempo_Productivo": "00:55:39.184295",
+    "Promedio_Tiempo_Estimado": "00:22:51.6744",
+    "Porcentaje_Cumplimiento": "41.08"
+  },
+  {
+    "Mes_Anio": "Septiembre 2025",
+    "Nombre_Unidad": "Palacio Mundo Imperial",
+    "Cantidad_Tickets": 798,
+    "Total_Tiempo_Productivo": "2227:32:24",
+    "Promedio_Tiempo_Productivo": "02:47:29.052631",
+    "Promedio_Tiempo_Estimado": "00:25:45.8646",
+    "Porcentaje_Cumplimiento": "15.38"
+  },
+  {
+    "Mes_Anio": "Septiembre 2025",
+    "Nombre_Unidad": "Pierre Mundo Imperial",
+    "Cantidad_Tickets": 817,
+    "Total_Tiempo_Productivo": "1085:12:2.",
+    "Promedio_Tiempo_Productivo": "01:19:41.789473",
+    "Promedio_Tiempo_Estimado": "00:21:51.6279",
+    "Porcentaje_Cumplimiento": "27.43"
+  },
+  {
+    "Mes_Anio": "Septiembre 2025",
+    "Nombre_Unidad": "Princess Mundo Imperial",
+    "Cantidad_Tickets": 1366,
+    "Total_Tiempo_Productivo": "1558:30:1.",
+    "Promedio_Tiempo_Productivo": "01:08:27.321376",
+    "Promedio_Tiempo_Estimado": "00:23:41.3762",
+    "Porcentaje_Cumplimiento": "34.61"
+  },
+  {
+    "Mes_Anio": "Octubre 2025",
+    "Nombre_Unidad": "Palacio Mundo Imperial",
+    "Cantidad_Tickets": 455,
+    "Total_Tiempo_Productivo": "956:05:5.",
+    "Promedio_Tiempo_Productivo": "02:06:04.626373",
+    "Promedio_Tiempo_Estimado": "00:27:08.5714",
+    "Porcentaje_Cumplimiento": "21.53"
+  },
+  {
+    "Mes_Anio": "Octubre 2025",
+    "Nombre_Unidad": "Pierre Mundo Imperial",
+    "Cantidad_Tickets": 731,
+    "Total_Tiempo_Productivo": "1140:06:15",
+    "Promedio_Tiempo_Productivo": "01:33:34.740082",
+    "Promedio_Tiempo_Estimado": "00:21:58.1942",
+    "Porcentaje_Cumplimiento": "23.48"
+  },
+  {
+    "Mes_Anio": "Octubre 2025",
+    "Nombre_Unidad": "Princess Mundo Imperial",
+    "Cantidad_Tickets": 1169,
+    "Total_Tiempo_Productivo": "998:04:35",
+    "Promedio_Tiempo_Productivo": "00:51:13.631308",
+    "Promedio_Tiempo_Estimado": "00:23:19.1445",
+    "Porcentaje_Cumplimiento": "45.52"
+  },
+  {
+    "Mes_Anio": "Noviembre 2025",
+    "Nombre_Unidad": "Palacio Mundo Imperial",
+    "Cantidad_Tickets": 1464,
+    "Total_Tiempo_Productivo": "1321:22:39",
+    "Promedio_Tiempo_Productivo": "00:54:09.288934",
+    "Promedio_Tiempo_Estimado": "00:24:04.2622",
+    "Porcentaje_Cumplimiento": "44.45"
+  },
+  {
+    "Mes_Anio": "Noviembre 2025",
+    "Nombre_Unidad": "Pierre Mundo Imperial",
+    "Cantidad_Tickets": 995,
+    "Total_Tiempo_Productivo": "2602:09:39",
+    "Promedio_Tiempo_Productivo": "02:36:54.853266",
+    "Promedio_Tiempo_Estimado": "00:23:29.8492",
+    "Porcentaje_Cumplimiento": "14.97"
+  },
+  {
+    "Mes_Anio": "Noviembre 2025",
+    "Nombre_Unidad": "Princess Mundo Imperial",
+    "Cantidad_Tickets": 2304,
+    "Total_Tiempo_Productivo": "2415:38:22",
+    "Promedio_Tiempo_Productivo": "01:02:54.436631",
+    "Promedio_Tiempo_Estimado": "00:22:52.9166",
+    "Porcentaje_Cumplimiento": "36.37"
+  },
+  {
+    "Mes_Anio": "Diciembre 2025",
+    "Nombre_Unidad": "Palacio Mundo Imperial",
+    "Cantidad_Tickets": 1979,
+    "Total_Tiempo_Productivo": "1413:04:17",
+    "Promedio_Tiempo_Productivo": "00:42:50.518948",
+    "Promedio_Tiempo_Estimado": "00:25:22.8903",
+    "Porcentaje_Cumplimiento": "59.24"
+  },
+  {
+    "Mes_Anio": "Diciembre 2025",
+    "Nombre_Unidad": "Pierre Mundo Imperial",
+    "Cantidad_Tickets": 1632,
+    "Total_Tiempo_Productivo": "2019:24:20",
+    "Promedio_Tiempo_Productivo": "01:14:14.571078",
+    "Promedio_Tiempo_Estimado": "00:23:52.3529",
+    "Porcentaje_Cumplimiento": "32.15"
+  },
+  {
+    "Mes_Anio": "Diciembre 2025",
+    "Nombre_Unidad": "Princess Mundo Imperial",
+    "Cantidad_Tickets": 3540,
+    "Total_Tiempo_Productivo": "3418:46:6.",
+    "Promedio_Tiempo_Productivo": "00:57:56.713559",
+    "Promedio_Tiempo_Estimado": "00:23:04.5762",
+    "Porcentaje_Cumplimiento": "39.82"
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "Departamento": "Ama de Llaves",
+    "Cantidad_Tickets": 6554,
+    "Tiempo_Productivo_Total": "7204:52:20",
+    "Promedio_Tiempo_Productivo": "01:05:57.512969",
+    "Promedio_Tiempo_Estimado": "00:31:35.9414",
+    "Porcentaje_Cumplimiento": "47.91"
+  },
+  {
+    "Departamento": "Mantenimiento",
+    "Cantidad_Tickets": 4202,
+    "Tiempo_Productivo_Total": "26332:17:15",
+    "Promedio_Tiempo_Productivo": "06:15:59.789386",
+    "Promedio_Tiempo_Estimado": "00:20:00.0000",
+    "Porcentaje_Cumplimiento": "5.32"
+  },
+  {
+    "Departamento": "Prevención de Riesgos",
+    "Cantidad_Tickets": 2830,
+    "Tiempo_Productivo_Total": "2172:10:40",
+    "Promedio_Tiempo_Productivo": "00:46:03.194699",
+    "Promedio_Tiempo_Estimado": "00:20:00.0000",
+    "Porcentaje_Cumplimiento": "43.43"
+  },
+  {
+    "Departamento": "Tecnología",
+    "Cantidad_Tickets": 489,
+    "Tiempo_Productivo_Total": "1069:45:10",
+    "Promedio_Tiempo_Productivo": "02:11:15.480572",
+    "Promedio_Tiempo_Estimado": "00:20:00.0000",
+    "Porcentaje_Cumplimiento": "15.24"
+  },
+  {
+    "Departamento": "Bell Boys / Valet Parking",
+    "Cantidad_Tickets": 406,
+    "Tiempo_Productivo_Total": "1034:41:6.",
+    "Promedio_Tiempo_Productivo": "02:32:54.546798",
+    "Promedio_Tiempo_Estimado": "00:20:00.0000",
+    "Porcentaje_Cumplimiento": "13.08"
+  },
+  {
+    "Departamento": "Servicio Imperial",
+    "Cantidad_Tickets": 131,
+    "Tiempo_Productivo_Total": "77:14:3.",
+    "Promedio_Tiempo_Productivo": "00:35:22.465648",
+    "Promedio_Tiempo_Estimado": "00:20:00.0000",
+    "Porcentaje_Cumplimiento": "56.54"
+  },
+  {
+    "Departamento": "Alimentos & Bebidas",
+    "Cantidad_Tickets": 63,
+    "Tiempo_Productivo_Total": "2699:06:38",
+    "Promedio_Tiempo_Productivo": "42:50:34.888888",
+    "Promedio_Tiempo_Estimado": "00:20:00.0000",
+    "Porcentaje_Cumplimiento": "0.78"
+  },
+  {
+    "Departamento": "Recepción",
+    "Cantidad_Tickets": 4,
+    "Tiempo_Productivo_Total": "78:39:58",
+    "Promedio_Tiempo_Productivo": "19:39:59.500000",
+    "Promedio_Tiempo_Estimado": "00:20:00.0000",
+    "Porcentaje_Cumplimiento": "1.69"
+  }
+]

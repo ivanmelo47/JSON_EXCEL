@@ -1,0 +1,285 @@
+TICKETS GENERAL--------------------------
+
+SET lc_time_names = 'es_ES';
+
+SELECT
+    CONCAT(
+        UCASE(LEFT(DATE_FORMAT(mt.fCreacionTicket, '%M'), 1)),
+        LCASE(SUBSTRING(DATE_FORMAT(mt.fCreacionTicket, '%M'), 2)),
+        ' ',
+        YEAR(mt.fCreacionTicket)
+    ) AS Mes_Anio,
+    u.nombreUnidad AS Nombre_Unidad,
+    COUNT(*) AS Cantidad_Tickets,
+
+    -- Total de tiempo productivo en formato hh:mm:ss (sin límite)
+    CONCAT(
+        FLOOR(SUM(TIME_TO_SEC(mt.tiempoProduccionTicket)) / 3600), ':',
+        LPAD(FLOOR((SUM(TIME_TO_SEC(mt.tiempoProduccionTicket)) % 3600) / 60), 2, '0'), ':',
+        LPAD(SUM(TIME_TO_SEC(mt.tiempoProduccionTicket)) % 60, 2, '0')
+    ) AS Total_Tiempo_Productivo,
+
+    -- Promedio de tiempo productivo en formato hh:mm:ss
+    SEC_TO_TIME(AVG(TIME_TO_SEC(mt.tiempoProduccionTicket))) AS Promedio_Tiempo_Productivo,
+
+    -- Promedio de tiempo estimado en formato hh:mm:ss
+    SEC_TO_TIME(AVG(et.tiempoEtiqueta * 60)) AS Promedio_Tiempo_Estimado,
+
+    -- Porcentaje de cumplimiento
+    CASE 
+        WHEN AVG(TIME_TO_SEC(mt.tiempoProduccionTicket)) > 0 THEN 
+            ROUND(
+                (AVG(et.tiempoEtiqueta * 60) / AVG(TIME_TO_SEC(mt.tiempoProduccionTicket))) * 100, 2
+            )
+        ELSE 0
+    END AS Porcentaje_Cumplimiento
+
+FROM moduloticket mt
+JOIN habitacionlugar hl ON mt.habitacionLugar_idHL = hl.idHL
+JOIN areas a ON hl.areas_idAreas = a.idAreas
+JOIN unidad u ON a.unidad_idUnidad = u.idUnidad
+JOIN etiqueta et ON mt.etiqueta_idEtiqueta = et.idEtiqueta
+
+WHERE mt.estatusTicket = 'Cerrado'
+AND mt.fCreacionTicket BETWEEN '2025-01-01 00:00:00' AND '2025-12-31 23:59:59'
+
+GROUP BY Mes_Anio, Nombre_Unidad
+ORDER BY
+    YEAR(mt.fCreacionTicket),
+    MONTH(mt.fCreacionTicket),
+    Nombre_Unidad;
+
+
+GLITCHES GENERALES--------------------------
+
+SET lc_time_names = 'es_ES';
+
+SELECT
+    -- Mes y Año en español (ej: Enero 2025)
+    CONCAT(
+        UCASE(LEFT(DATE_FORMAT(mg.fcreacionGlitch, '%M'), 1)),
+        LCASE(SUBSTRING(DATE_FORMAT(mg.fcreacionGlitch, '%M'), 2)),
+        ' ',
+        YEAR(mg.fcreacionGlitch)
+    ) AS Mes_Anio,
+
+    u.nombreUnidad AS Nombre_Unidad,
+
+    COUNT(*) AS Cantidad_Total_Tickets_Glitch,
+
+    -- Cantidad de tickets en estatus "Pendiente"
+    SUM(CASE WHEN mg.estatusGlitch = 'Pendiente' THEN 1 ELSE 0 END) AS Cantidad_Pendientes,
+
+    -- Cantidad de tickets en estatus "Completado"
+    SUM(CASE WHEN mg.estatusGlitch = 'Completado' THEN 1 ELSE 0 END) AS Cantidad_Completados
+
+FROM moduloglitch mg
+JOIN habitacionlugar hl ON mg.habitacionLugar_idHL = hl.idHL
+JOIN areas a ON hl.areas_idAreas = a.idAreas
+JOIN unidad u ON a.unidad_idUnidad = u.idUnidad
+
+-- Rango de fechas
+WHERE mg.fcreacionGlitch BETWEEN '2025-01-01 00:00:00' AND '2025-12-31 23:59:59'
+
+GROUP BY Mes_Anio, Nombre_Unidad
+ORDER BY
+    YEAR(mg.fcreacionGlitch),
+    MONTH(mg.fcreacionGlitch),
+    Nombre_Unidad;
+
+
+
+TICKETS GENERAL MANTENIMIENTO--------------------------
+
+SET lc_time_names = 'es_ES';
+
+SELECT
+    -- Mes y año en formato español
+    CONCAT(
+        UCASE(LEFT(DATE_FORMAT(mm.fCreacionMantenimiento, '%M'), 1)),
+        LCASE(SUBSTRING(DATE_FORMAT(mm.fCreacionMantenimiento, '%M'), 2)),
+        ' ',
+        YEAR(mm.fCreacionMantenimiento)
+    ) AS Mes_Anio,
+
+    u.nombreUnidad AS Nombre_Unidad,
+
+    COUNT(*) AS Total_Tickets_Mantenimiento,
+
+    -- Desglose por estatus
+    SUM(CASE WHEN mm.estatusMantenimiento = 'Pendiente' THEN 1 ELSE 0 END) AS Cantidad_Pendiente,
+    SUM(CASE WHEN mm.estatusMantenimiento = 'En progreso' THEN 1 ELSE 0 END) AS Cantidad_En_Progreso,
+    SUM(CASE WHEN mm.estatusMantenimiento = 'Retrasado' THEN 1 ELSE 0 END) AS Cantidad_Retrasado,
+    SUM(CASE WHEN mm.estatusMantenimiento = 'Completado' THEN 1 ELSE 0 END) AS Cantidad_Completado,
+    SUM(CASE WHEN mm.estatusMantenimiento = 'Cerrado' THEN 1 ELSE 0 END) AS Cantidad_Cerrado
+
+FROM modulomantenimiento mm
+JOIN habitacionlugar hl ON mm.habitacionLugar_idHL = hl.idHL
+JOIN areas a ON hl.areas_idAreas = a.idAreas
+JOIN unidad u ON a.unidad_idUnidad = u.idUnidad
+
+-- Rango de fechas (ajústalo según necesites)
+WHERE mm.fCreacionMantenimiento BETWEEN '2025-01-01 00:00:00' AND '2025-12-31 23:59:59'
+
+GROUP BY Mes_Anio, Nombre_Unidad
+ORDER BY
+    YEAR(mm.fCreacionMantenimiento),
+    MONTH(mm.fCreacionMantenimiento),
+    u.nombreUnidad;
+
+
+TICKETS GENERAL TECNOLOGIA--------------------------
+
+SET lc_time_names = 'es_ES';
+
+SELECT
+    -- Mes y año en formato español
+    CONCAT(
+        UCASE(LEFT(DATE_FORMAT(mt.fCreacionTi, '%M'), 1)),
+        LCASE(SUBSTRING(DATE_FORMAT(mt.fCreacionTi, '%M'), 2)),
+        ' ',
+        YEAR(mt.fCreacionTi)
+    ) AS Mes_Anio,
+
+    u.nombreUnidad AS Nombre_Unidad,
+
+    COUNT(*) AS Total_Tickets_TI,
+
+    -- Desglose por estatus
+    SUM(CASE WHEN mt.estatusTi = 'Pendiente' THEN 1 ELSE 0 END) AS Cantidad_Pendiente,
+    SUM(CASE WHEN mt.estatusTi = 'En progreso' THEN 1 ELSE 0 END) AS Cantidad_En_Progreso,
+    SUM(CASE WHEN mt.estatusTi = 'Retrasado' THEN 1 ELSE 0 END) AS Cantidad_Retrasado,
+    SUM(CASE WHEN mt.estatusTi = 'Completado' THEN 1 ELSE 0 END) AS Cantidad_Completado,
+    SUM(CASE WHEN mt.estatusTi = 'Cerrado' THEN 1 ELSE 0 END) AS Cantidad_Cerrado
+
+FROM moduloti mt
+JOIN habitacionlugar hl ON mt.habitacionLugar_idHL = hl.idHL
+JOIN areas a ON hl.areas_idAreas = a.idAreas
+JOIN unidad u ON a.unidad_idUnidad = u.idUnidad
+
+-- Rango de fechas ajustable
+WHERE mt.fCreacionTi BETWEEN '2025-01-01 00:00:00' AND '2025-12-31 23:59:59'
+
+GROUP BY Mes_Anio, Nombre_Unidad
+ORDER BY
+    YEAR(mt.fCreacionTi),
+    MONTH(mt.fCreacionTi),
+    u.nombreUnidad;
+
+
+
+LOST AND FOUND GENERAL--------------------------
+
+SET lc_time_names = 'es_ES';
+
+SELECT
+    -- Mes y año en español (ej. Enero 2025)
+    CONCAT(
+        UCASE(LEFT(DATE_FORMAT(mlf.fEntradaObjetoLyf, '%M'), 1)),
+        LCASE(SUBSTRING(DATE_FORMAT(mlf.fEntradaObjetoLyf, '%M'), 2)),
+        ' ',
+        YEAR(mlf.fEntradaObjetoLyf)
+    ) AS Mes_Anio,
+
+    u.nombreUnidad AS Nombre_Unidad,
+
+    COUNT(*) AS Total_Tickets_LostAndFound,
+
+    -- Cantidad por estatus
+    SUM(CASE WHEN mlf.estatusLyf = 'Pendiente' THEN 1 ELSE 0 END) AS Cantidad_Pendiente,
+    SUM(CASE WHEN mlf.estatusLyf = 'Vencido' THEN 1 ELSE 0 END) AS Cantidad_Vencido,
+    SUM(CASE WHEN mlf.estatusLyf = 'Completado' THEN 1 ELSE 0 END) AS Cantidad_Completado
+
+FROM modulolostandfound mlf
+JOIN habitacionlugar hl ON mlf.habitacionLugar_idHL = hl.idHL
+JOIN areas a ON hl.areas_idAreas = a.idAreas
+JOIN unidad u ON a.unidad_idUnidad = u.idUnidad
+
+-- Puedes ajustar el rango de fechas según necesidad
+WHERE mlf.fEntradaObjetoLyf BETWEEN '2025-01-01 00:00:00' AND '2025-12-31 23:59:59'
+
+GROUP BY Mes_Anio, Nombre_Unidad
+ORDER BY
+    YEAR(mlf.fEntradaObjetoLyf),
+    MONTH(mlf.fEntradaObjetoLyf),
+    u.nombreUnidad;
+
+
+DATOS GENERALES * UNIDAD * DEPARTAMENTO--------------------------
+
+-- Datos por departamento para unidad 1 en abril 2025
+SELECT
+    d.nombre_departamento AS Departamento,
+    COUNT(*) AS Cantidad_Tickets,
+
+    -- Tiempo productivo total
+    CONCAT(
+        FLOOR(SUM(TIME_TO_SEC(mt.tiempoProduccionTicket)) / 3600), ':',
+        LPAD(FLOOR((SUM(TIME_TO_SEC(mt.tiempoProduccionTicket)) % 3600) / 60), 2, '0'), ':',
+        LPAD(SUM(TIME_TO_SEC(mt.tiempoProduccionTicket)) % 60, 2, '0')
+    ) AS Tiempo_Productivo_Total,
+
+    -- Promedio tiempo productivo
+    SEC_TO_TIME(AVG(TIME_TO_SEC(mt.tiempoProduccionTicket))) AS Promedio_Tiempo_Productivo,
+
+    -- Promedio tiempo esperado
+    SEC_TO_TIME(AVG(e.tiempoEtiqueta * 60)) AS Promedio_Tiempo_Estimado,
+
+    -- Porcentaje de cumplimiento
+    CASE 
+        WHEN AVG(TIME_TO_SEC(mt.tiempoProduccionTicket)) > 0 THEN 
+            ROUND((AVG(e.tiempoEtiqueta * 60) / AVG(TIME_TO_SEC(mt.tiempoProduccionTicket))) * 100, 2)
+        ELSE 0
+    END AS Porcentaje_Cumplimiento
+
+FROM moduloticket mt
+JOIN etiqueta e ON mt.etiqueta_idEtiqueta = e.idEtiqueta
+JOIN departamentoticket dt ON e.departamentoTicket_idDepartamento = dt.idDepartamentoTicket
+JOIN departamentos d ON dt.departamento_idDepartamento = d.id_departamento
+JOIN habitacionlugar hl ON mt.habitacionLugar_idHL = hl.idHL
+JOIN areas a ON hl.areas_idAreas = a.idAreas
+JOIN unidad u ON a.unidad_idUnidad = u.idUnidad
+
+WHERE mt.fCreacionTicket BETWEEN '2025-01-01 00:00:00' AND '2025-12-31 23:59:59'
+AND mt.estatusTicket = 'Cerrado'
+AND u.idUnidad = 1
+
+GROUP BY d.nombre_departamento
+ORDER BY Cantidad_Tickets DESC;
+
+
+ETIQUETAS * UNIDAD * DEPARTAMENTO--------------------------
+
+SELECT
+    d.nombre_departamento AS departamento,
+    e.nombreEtiqueta AS etiqueta,
+    COUNT(*) AS total_tickets,
+    SEC_TO_TIME(FLOOR(AVG(
+        TIME_TO_SEC(mt.tiempoProduccionTicket)
+    ))) AS tiempo_promedio_productivo
+FROM moduloticket mt
+JOIN etiqueta e ON mt.etiqueta_idEtiqueta = e.idEtiqueta
+JOIN departamentoticket dt ON e.departamentoTicket_idDepartamento = dt.idDepartamentoTicket
+JOIN departamentos d ON dt.departamento_idDepartamento = d.id_departamento
+JOIN habitacionlugar hl ON mt.habitacionLugar_idHL = hl.idHL
+JOIN areas a ON hl.areas_idAreas = a.idAreas
+JOIN unidad u ON a.unidad_idUnidad = u.idUnidad
+WHERE mt.fCreacionTicket BETWEEN '2025-01-01 00:00:00' AND '2025-12-31 23:59:59'
+AND mt.estatusTicket = 'Cerrado'
+AND u.idUnidad = 2
+GROUP BY d.nombre_departamento, e.nombreEtiqueta
+ORDER BY total_tickets DESC;
+
+TOP HABITACIONES CON MAS TICKETS--------------------------
+
+SELECT hl.nombreHL AS habitacion, COUNT(*) AS total_tickets
+FROM moduloticket mt
+JOIN habitacionlugar hl ON mt.habitacionLugar_idHL = hl.idHL
+JOIN areas a ON hl.areas_idAreas = a.idAreas
+JOIN unidad u ON a.unidad_idUnidad = u.idUnidad
+WHERE u.idUnidad = 1
+AND mt.fCreacionTicket BETWEEN '2025-01-01 00:00:00' AND '2025-12-31 23:59:59'
+AND mt.estatusTicket = 'Cerrado'
+GROUP BY hl.nombreHL
+ORDER BY total_tickets DESC
+LIMIT 10;

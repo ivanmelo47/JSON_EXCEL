@@ -1,0 +1,1730 @@
+[
+  {
+    "departamento": "Bell Boys / Valet Parking",
+    "etiqueta": "Bajar equipaje",
+    "total_tickets": 1258,
+    "tiempo_promedio_productivo": "00:23:52"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Trabajo de carpintería",
+    "total_tickets": 765,
+    "tiempo_promedio_productivo": "00:57:52"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Aire acondicionado con ruido",
+    "total_tickets": 524,
+    "tiempo_promedio_productivo": "01:21:36"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Aire acondicionado - No enfria",
+    "total_tickets": 485,
+    "tiempo_promedio_productivo": "01:12:24"
+  },
+  {
+    "departamento": "Bell Boys / Valet Parking",
+    "etiqueta": "Traer automovil",
+    "total_tickets": 466,
+    "tiempo_promedio_productivo": "00:51:21"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Aseo en habitación",
+    "total_tickets": 453,
+    "tiempo_promedio_productivo": "02:17:14"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Colocar botellas de agua",
+    "total_tickets": 399,
+    "tiempo_promedio_productivo": "01:19:29"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Toalla de baño - Extra",
+    "total_tickets": 378,
+    "tiempo_promedio_productivo": "03:18:48"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Kit mascota",
+    "total_tickets": 370,
+    "tiempo_promedio_productivo": "01:23:26"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Lavabo tapado",
+    "total_tickets": 335,
+    "tiempo_promedio_productivo": "01:00:20"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Foco fundido",
+    "total_tickets": 331,
+    "tiempo_promedio_productivo": "01:09:46"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "No hay agua caliente",
+    "total_tickets": 276,
+    "tiempo_promedio_productivo": "01:02:51"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Colocar cama extra",
+    "total_tickets": 268,
+    "tiempo_promedio_productivo": "01:35:48"
+  },
+  {
+    "departamento": "Prevención de Riesgos",
+    "etiqueta": "Caja de seguridad - Clave errónea",
+    "total_tickets": 203,
+    "tiempo_promedio_productivo": "01:45:54"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Limpieza rejilla de aire acondicionado",
+    "total_tickets": 183,
+    "tiempo_promedio_productivo": "01:04:45"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Colocar tapa de contacto",
+    "total_tickets": 181,
+    "tiempo_promedio_productivo": "01:35:07"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Colocar cobertor adicional",
+    "total_tickets": 180,
+    "tiempo_promedio_productivo": "01:56:20"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Problemas en ventilador",
+    "total_tickets": 176,
+    "tiempo_promedio_productivo": "01:00:01"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Tina tapada",
+    "total_tickets": 175,
+    "tiempo_promedio_productivo": "00:49:56"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "WC tapado",
+    "total_tickets": 174,
+    "tiempo_promedio_productivo": "00:56:43"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Caja de seguridad cambio pilas",
+    "total_tickets": 172,
+    "tiempo_promedio_productivo": "01:00:55"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Tina tapón",
+    "total_tickets": 172,
+    "tiempo_promedio_productivo": "00:56:39"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Aire acondicionado con fuga",
+    "total_tickets": 160,
+    "tiempo_promedio_productivo": "00:53:25"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Foco fundido en baño",
+    "total_tickets": 159,
+    "tiempo_promedio_productivo": "00:54:33"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Toalla de baño - Cambiar por secas",
+    "total_tickets": 156,
+    "tiempo_promedio_productivo": "00:56:25"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Telefono sin línea",
+    "total_tickets": 153,
+    "tiempo_promedio_productivo": "03:54:04"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Lavabo con fuga",
+    "total_tickets": 153,
+    "tiempo_promedio_productivo": "01:12:49"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Refrigerador no enfría",
+    "total_tickets": 152,
+    "tiempo_promedio_productivo": "00:58:47"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "TV sin señal",
+    "total_tickets": 146,
+    "tiempo_promedio_productivo": "01:08:36"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Bastón caído de cortinas",
+    "total_tickets": 143,
+    "tiempo_promedio_productivo": "01:06:04"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Colocar café extra",
+    "total_tickets": 129,
+    "tiempo_promedio_productivo": "00:59:42"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Puerta terraza no cierra",
+    "total_tickets": 127,
+    "tiempo_promedio_productivo": "01:01:30"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Colocar cuna",
+    "total_tickets": 125,
+    "tiempo_promedio_productivo": "01:48:44"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Toalla de baño - Incompleto no. de pax",
+    "total_tickets": 124,
+    "tiempo_promedio_productivo": "01:10:22"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Tender sofá",
+    "total_tickets": 102,
+    "tiempo_promedio_productivo": "01:08:04"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Lavabo llaves",
+    "total_tickets": 96,
+    "tiempo_promedio_productivo": "01:03:39"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Foco fundido en closet",
+    "total_tickets": 96,
+    "tiempo_promedio_productivo": "01:02:11"
+  },
+  {
+    "departamento": "Prevención de Riesgos",
+    "etiqueta": "Caja de seguridad reprogramación",
+    "total_tickets": 94,
+    "tiempo_promedio_productivo": "01:51:29"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Toallero despegado",
+    "total_tickets": 93,
+    "tiempo_promedio_productivo": "01:56:03"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Tapa de wc despegada",
+    "total_tickets": 91,
+    "tiempo_promedio_productivo": "01:00:57"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "WC con fuga",
+    "total_tickets": 90,
+    "tiempo_promedio_productivo": "01:16:43"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "TV no funciona",
+    "total_tickets": 88,
+    "tiempo_promedio_productivo": "01:40:38"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Rejilla de extractor",
+    "total_tickets": 86,
+    "tiempo_promedio_productivo": "01:00:20"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Limpieza de faroles",
+    "total_tickets": 85,
+    "tiempo_promedio_productivo": "02:59:00"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "TV no enciende",
+    "total_tickets": 83,
+    "tiempo_promedio_productivo": "00:54:58"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Telefono no funciona",
+    "total_tickets": 83,
+    "tiempo_promedio_productivo": "04:35:58"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Puerta principal no cierra",
+    "total_tickets": 83,
+    "tiempo_promedio_productivo": "01:20:39"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Chapeton caido",
+    "total_tickets": 79,
+    "tiempo_promedio_productivo": "00:55:53"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "TV desprogramada",
+    "total_tickets": 78,
+    "tiempo_promedio_productivo": "00:40:54"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Aire acondicionado con mal olor",
+    "total_tickets": 77,
+    "tiempo_promedio_productivo": "01:08:56"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Aire acondicionado - No funciona",
+    "total_tickets": 72,
+    "tiempo_promedio_productivo": "01:05:34"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Kit dental",
+    "total_tickets": 69,
+    "tiempo_promedio_productivo": "01:09:59"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Control remoto no funciona",
+    "total_tickets": 69,
+    "tiempo_promedio_productivo": "01:07:39"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Humedad en habitación",
+    "total_tickets": 68,
+    "tiempo_promedio_productivo": "00:52:44"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "No hay luz en la habitación",
+    "total_tickets": 62,
+    "tiempo_promedio_productivo": "00:50:57"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Toalla de baño - No dejaron despues de aseo",
+    "total_tickets": 61,
+    "tiempo_promedio_productivo": "01:31:42"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Regadera despegada",
+    "total_tickets": 60,
+    "tiempo_promedio_productivo": "01:10:14"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Foco fundido en recamara",
+    "total_tickets": 60,
+    "tiempo_promedio_productivo": "00:44:40"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Foco fundido en lampara de buró",
+    "total_tickets": 59,
+    "tiempo_promedio_productivo": "00:49:55"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Colocar jabón de baño",
+    "total_tickets": 59,
+    "tiempo_promedio_productivo": "01:00:54"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Lavar rejilla de aire acondicionado",
+    "total_tickets": 57,
+    "tiempo_promedio_productivo": "00:56:54"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Colocar papel higienico",
+    "total_tickets": 55,
+    "tiempo_promedio_productivo": "01:30:09"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Cafetera no funciona",
+    "total_tickets": 54,
+    "tiempo_promedio_productivo": "00:54:58"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Secar baño",
+    "total_tickets": 53,
+    "tiempo_promedio_productivo": "00:53:46"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Cambiar silicón de lavabo",
+    "total_tickets": 52,
+    "tiempo_promedio_productivo": "01:03:53"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Secar piso en habitación",
+    "total_tickets": 51,
+    "tiempo_promedio_productivo": "03:42:03"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Persiana despegada",
+    "total_tickets": 50,
+    "tiempo_promedio_productivo": "05:46:55"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Tina automático no funciona",
+    "total_tickets": 50,
+    "tiempo_promedio_productivo": "00:53:01"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Reparar ventilador techo",
+    "total_tickets": 46,
+    "tiempo_promedio_productivo": "01:10:51"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Insectos en habitación",
+    "total_tickets": 45,
+    "tiempo_promedio_productivo": "01:16:31"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Foco/lampara despegado",
+    "total_tickets": 45,
+    "tiempo_promedio_productivo": "01:08:20"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Colocar amenidades para café",
+    "total_tickets": 44,
+    "tiempo_promedio_productivo": "01:07:04"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Chapa no funciona",
+    "total_tickets": 44,
+    "tiempo_promedio_productivo": "00:52:26"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Contacto eléctrico no funciona",
+    "total_tickets": 41,
+    "tiempo_promedio_productivo": "00:53:21"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Trabajo de electricidad",
+    "total_tickets": 39,
+    "tiempo_promedio_productivo": "01:04:59"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Porta rollo despegado",
+    "total_tickets": 37,
+    "tiempo_promedio_productivo": "01:01:24"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Regadera no funciona",
+    "total_tickets": 37,
+    "tiempo_promedio_productivo": "01:06:11"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Colocar tapete de baño",
+    "total_tickets": 36,
+    "tiempo_promedio_productivo": "00:46:01"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Bolsa de lavanderia",
+    "total_tickets": 36,
+    "tiempo_promedio_productivo": "01:02:45"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "No hay agua en la habitación",
+    "total_tickets": 34,
+    "tiempo_promedio_productivo": "01:15:45"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Problemas con WC",
+    "total_tickets": 34,
+    "tiempo_promedio_productivo": "01:19:41"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Chapa batería baja",
+    "total_tickets": 34,
+    "tiempo_promedio_productivo": "01:12:36"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Cambiar refrigerador",
+    "total_tickets": 34,
+    "tiempo_promedio_productivo": "01:49:51"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Cancel no cierra",
+    "total_tickets": 34,
+    "tiempo_promedio_productivo": "01:06:36"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Cancel no abre",
+    "total_tickets": 34,
+    "tiempo_promedio_productivo": "01:01:30"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Caja de seguridad cambio mecanismo",
+    "total_tickets": 34,
+    "tiempo_promedio_productivo": "01:08:21"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Explicar uso cafetera",
+    "total_tickets": 32,
+    "tiempo_promedio_productivo": "01:41:15"
+  },
+  {
+    "departamento": "Bell Boys / Valet Parking",
+    "etiqueta": "Acudir con carrito de golf",
+    "total_tickets": 32,
+    "tiempo_promedio_productivo": "00:44:38"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Aire acondicionado rejilla caida",
+    "total_tickets": 31,
+    "tiempo_promedio_productivo": "03:13:26"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Colocar ganchos para pantalón",
+    "total_tickets": 31,
+    "tiempo_promedio_productivo": "01:07:46"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Colocar sabana extra",
+    "total_tickets": 30,
+    "tiempo_promedio_productivo": "00:32:40"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Aire acondicionado muy frio",
+    "total_tickets": 30,
+    "tiempo_promedio_productivo": "00:43:33"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Telefono descompuesto",
+    "total_tickets": 29,
+    "tiempo_promedio_productivo": "08:37:14"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Servicio lavandería regular",
+    "total_tickets": 29,
+    "tiempo_promedio_productivo": "01:26:19"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "WC no funciona",
+    "total_tickets": 27,
+    "tiempo_promedio_productivo": "01:17:12"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Colocar kleenex en habitación",
+    "total_tickets": 27,
+    "tiempo_promedio_productivo": "00:34:35"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Kit de afeitar",
+    "total_tickets": 27,
+    "tiempo_promedio_productivo": "01:02:13"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Colocar shampoo",
+    "total_tickets": 27,
+    "tiempo_promedio_productivo": "00:47:26"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Extractor de baño no funciona",
+    "total_tickets": 26,
+    "tiempo_promedio_productivo": "00:59:09"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Cancel forzado",
+    "total_tickets": 26,
+    "tiempo_promedio_productivo": "01:25:57"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Colocar almohadas Dacron",
+    "total_tickets": 26,
+    "tiempo_promedio_productivo": "02:36:26"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Colocar control remoto",
+    "total_tickets": 25,
+    "tiempo_promedio_productivo": "01:18:16"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Regadera con fuga",
+    "total_tickets": 25,
+    "tiempo_promedio_productivo": "01:05:56"
+  },
+  {
+    "departamento": "Servicio Imperial",
+    "etiqueta": "Llamada de despertada",
+    "total_tickets": 25,
+    "tiempo_promedio_productivo": "02:00:38"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Caja de seguridad - Pernos salidos",
+    "total_tickets": 25,
+    "tiempo_promedio_productivo": "00:36:58"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Colocar gel de baño",
+    "total_tickets": 25,
+    "tiempo_promedio_productivo": "00:44:40"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Cortinero caido sala",
+    "total_tickets": 25,
+    "tiempo_promedio_productivo": "01:17:46"
+  },
+  {
+    "departamento": "Bell Boys / Valet Parking",
+    "etiqueta": "Subir equipaje",
+    "total_tickets": 24,
+    "tiempo_promedio_productivo": "00:48:43"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Alberca sucia",
+    "total_tickets": 24,
+    "tiempo_promedio_productivo": "02:09:40"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Puerta de terraza caída",
+    "total_tickets": 23,
+    "tiempo_promedio_productivo": "01:11:15"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Vasos",
+    "total_tickets": 23,
+    "tiempo_promedio_productivo": "01:15:04"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Frigobar",
+    "total_tickets": 23,
+    "tiempo_promedio_productivo": "01:16:58"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Puerta terraza no abre",
+    "total_tickets": 22,
+    "tiempo_promedio_productivo": "00:56:03"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Coladera tapada",
+    "total_tickets": 22,
+    "tiempo_promedio_productivo": "01:01:51"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Tina llaves",
+    "total_tickets": 22,
+    "tiempo_promedio_productivo": "01:06:38"
+  },
+  {
+    "departamento": "Prevención de Riesgos",
+    "etiqueta": "Queja por ruido en habitacion continua",
+    "total_tickets": 21,
+    "tiempo_promedio_productivo": "01:15:00"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Cambiar almohadas",
+    "total_tickets": 21,
+    "tiempo_promedio_productivo": "02:52:31"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Kit de amenidades de baño",
+    "total_tickets": 21,
+    "tiempo_promedio_productivo": "01:38:29"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "WC asiento despegado",
+    "total_tickets": 21,
+    "tiempo_promedio_productivo": "01:36:03"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Colocar almohadas de plumas",
+    "total_tickets": 21,
+    "tiempo_promedio_productivo": "01:30:43"
+  },
+  {
+    "departamento": "Prevención de Riesgos",
+    "etiqueta": "Caja de seguridad explicar uso",
+    "total_tickets": 21,
+    "tiempo_promedio_productivo": "01:47:54"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Colocar jabon para manos",
+    "total_tickets": 20,
+    "tiempo_promedio_productivo": "00:37:30"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Cortinero caído en baño",
+    "total_tickets": 20,
+    "tiempo_promedio_productivo": "00:51:21"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Cajón fuera de riel",
+    "total_tickets": 20,
+    "tiempo_promedio_productivo": "01:09:21"
+  },
+  {
+    "departamento": "Prevención de Riesgos",
+    "etiqueta": "Caja de seguridad reseteo por bloqueo",
+    "total_tickets": 20,
+    "tiempo_promedio_productivo": "05:44:52"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Recoger vidrios en habitación",
+    "total_tickets": 19,
+    "tiempo_promedio_productivo": "02:49:20"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Plafón con fuga",
+    "total_tickets": 19,
+    "tiempo_promedio_productivo": "00:54:42"
+  },
+  {
+    "departamento": "Tecnología",
+    "etiqueta": "Internet - Dispositivo no ve WiFi",
+    "total_tickets": 19,
+    "tiempo_promedio_productivo": "03:33:06"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Tina con fuga",
+    "total_tickets": 19,
+    "tiempo_promedio_productivo": "01:15:42"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "WC fuga tanque",
+    "total_tickets": 18,
+    "tiempo_promedio_productivo": "01:14:06"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Plancha no funciona",
+    "total_tickets": 18,
+    "tiempo_promedio_productivo": "00:54:34"
+  },
+  {
+    "departamento": "Tecnología",
+    "etiqueta": "Internet - No acepta datos de habitación",
+    "total_tickets": 17,
+    "tiempo_promedio_productivo": "01:25:00"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Extensión eléctrica",
+    "total_tickets": 17,
+    "tiempo_promedio_productivo": "00:45:08"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Puerta baño atorada",
+    "total_tickets": 17,
+    "tiempo_promedio_productivo": "00:46:25"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Colocar cesto de basura",
+    "total_tickets": 16,
+    "tiempo_promedio_productivo": "00:45:43"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Toallas manos - No dejaron despues de aseo",
+    "total_tickets": 16,
+    "tiempo_promedio_productivo": "00:44:49"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Cambiar sabanas",
+    "total_tickets": 16,
+    "tiempo_promedio_productivo": "02:04:46"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Foco falta",
+    "total_tickets": 16,
+    "tiempo_promedio_productivo": "01:27:27"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Lavandería - Servicio espress (50% sobrecargo)",
+    "total_tickets": 15,
+    "tiempo_promedio_productivo": "07:33:37"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Colocar bata de baño",
+    "total_tickets": 15,
+    "tiempo_promedio_productivo": "00:46:34"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Control de plagas Fumigación",
+    "total_tickets": 14,
+    "tiempo_promedio_productivo": "01:27:54"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Lampara pie floja",
+    "total_tickets": 14,
+    "tiempo_promedio_productivo": "00:58:07"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Regadera telefono no funciona",
+    "total_tickets": 14,
+    "tiempo_promedio_productivo": "01:17:28"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Secadora reponer - La que tiene no funciona",
+    "total_tickets": 14,
+    "tiempo_promedio_productivo": "00:56:44"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Puerta abrir baño",
+    "total_tickets": 14,
+    "tiempo_promedio_productivo": "01:05:13"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Chapa desprogramada",
+    "total_tickets": 13,
+    "tiempo_promedio_productivo": "00:35:36"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Telefono de baño sin línea",
+    "total_tickets": 13,
+    "tiempo_promedio_productivo": "04:23:01"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Cortina de baño caida",
+    "total_tickets": 13,
+    "tiempo_promedio_productivo": "00:48:12"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Telefono con ruido",
+    "total_tickets": 13,
+    "tiempo_promedio_productivo": "03:57:27"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Puerta caida",
+    "total_tickets": 13,
+    "tiempo_promedio_productivo": "02:27:55"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Despegada manija mueble",
+    "total_tickets": 13,
+    "tiempo_promedio_productivo": "01:14:24"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Saca corcho",
+    "total_tickets": 13,
+    "tiempo_promedio_productivo": "00:18:51"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Mesa",
+    "total_tickets": 13,
+    "tiempo_promedio_productivo": "01:13:29"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Toalla manos - Extra",
+    "total_tickets": 13,
+    "tiempo_promedio_productivo": "01:09:49"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Faltan pilas en control remoto",
+    "total_tickets": 13,
+    "tiempo_promedio_productivo": "00:33:51"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Puerta de baño policarbonato despegado",
+    "total_tickets": 13,
+    "tiempo_promedio_productivo": "01:03:07"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Cancel seguro no funciona",
+    "total_tickets": 12,
+    "tiempo_promedio_productivo": "01:27:20"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Jabonera despegada",
+    "total_tickets": 12,
+    "tiempo_promedio_productivo": "01:03:37"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Foco fundido en pasillos",
+    "total_tickets": 12,
+    "tiempo_promedio_productivo": "00:58:24"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Regadera explicar uso",
+    "total_tickets": 12,
+    "tiempo_promedio_productivo": "00:27:22"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Regadera tubo despegado",
+    "total_tickets": 12,
+    "tiempo_promedio_productivo": "00:55:48"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Trabajo de acabados",
+    "total_tickets": 12,
+    "tiempo_promedio_productivo": "01:16:38"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Bolsa para basura",
+    "total_tickets": 12,
+    "tiempo_promedio_productivo": "00:32:07"
+  },
+  {
+    "departamento": "Prevención de Riesgos",
+    "etiqueta": "Caja de seguridad no indicaron motivo",
+    "total_tickets": 12,
+    "tiempo_promedio_productivo": "04:51:14"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Cancel manija floja",
+    "total_tickets": 11,
+    "tiempo_promedio_productivo": "00:50:09"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Espejo despegado",
+    "total_tickets": 11,
+    "tiempo_promedio_productivo": "01:12:50"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Apagador de lámpara de pie",
+    "total_tickets": 11,
+    "tiempo_promedio_productivo": "01:08:01"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Caja de seguridad cerrada por hpd anterior reporta hdp",
+    "total_tickets": 11,
+    "tiempo_promedio_productivo": "00:29:19"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Costurero",
+    "total_tickets": 11,
+    "tiempo_promedio_productivo": "00:56:07"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Apoyo a huésped mantenimiento",
+    "total_tickets": 11,
+    "tiempo_promedio_productivo": "00:40:16"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Kit de costura",
+    "total_tickets": 10,
+    "tiempo_promedio_productivo": "00:26:58"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Colocar crema para el cuerpo",
+    "total_tickets": 10,
+    "tiempo_promedio_productivo": "00:35:34"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Termostato no funciona",
+    "total_tickets": 10,
+    "tiempo_promedio_productivo": "01:20:28"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Aire acondicionado termostato despegado",
+    "total_tickets": 10,
+    "tiempo_promedio_productivo": "08:33:50"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Toallas juego completo",
+    "total_tickets": 10,
+    "tiempo_promedio_productivo": "00:45:17"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Telefono bocina no se escucha",
+    "total_tickets": 10,
+    "tiempo_promedio_productivo": "03:01:26"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Cuna",
+    "total_tickets": 10,
+    "tiempo_promedio_productivo": "00:43:03"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Programar control remoto",
+    "total_tickets": 10,
+    "tiempo_promedio_productivo": "02:11:09"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Cancel despegado",
+    "total_tickets": 10,
+    "tiempo_promedio_productivo": "01:00:31"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Toalla facial - No dejaron despues de aseo",
+    "total_tickets": 9,
+    "tiempo_promedio_productivo": "00:26:05"
+  },
+  {
+    "departamento": "Tecnología",
+    "etiqueta": "Internet  Conectado pero no hay internet",
+    "total_tickets": 9,
+    "tiempo_promedio_productivo": "02:33:33"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Alarma contra incendio",
+    "total_tickets": 9,
+    "tiempo_promedio_productivo": "00:10:41"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Porta maletas",
+    "total_tickets": 9,
+    "tiempo_promedio_productivo": "00:51:43"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Cambiar ropa de cama",
+    "total_tickets": 9,
+    "tiempo_promedio_productivo": "00:58:08"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "WC cadena rota",
+    "total_tickets": 8,
+    "tiempo_promedio_productivo": "00:41:38"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Perchero despegado",
+    "total_tickets": 8,
+    "tiempo_promedio_productivo": "01:13:36"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Cuna extra",
+    "total_tickets": 8,
+    "tiempo_promedio_productivo": "00:42:04"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Lavabo varilla automático no funciona",
+    "total_tickets": 8,
+    "tiempo_promedio_productivo": "01:36:18"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Toalla de baño - Check in no hay",
+    "total_tickets": 8,
+    "tiempo_promedio_productivo": "00:26:09"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Colocar crema para café",
+    "total_tickets": 8,
+    "tiempo_promedio_productivo": "00:47:52"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Ajustar vidrio",
+    "total_tickets": 8,
+    "tiempo_promedio_productivo": "00:53:06"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "No hay agua fria",
+    "total_tickets": 8,
+    "tiempo_promedio_productivo": "01:48:38"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "WC con ruido",
+    "total_tickets": 7,
+    "tiempo_promedio_productivo": "01:24:50"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Falta secadora",
+    "total_tickets": 7,
+    "tiempo_promedio_productivo": "01:09:58"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Trabajo de pintura",
+    "total_tickets": 7,
+    "tiempo_promedio_productivo": "00:21:59"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Falta rejilla de cristal",
+    "total_tickets": 7,
+    "tiempo_promedio_productivo": "01:05:59"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Cambio de regadera",
+    "total_tickets": 7,
+    "tiempo_promedio_productivo": "00:54:37"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Colocar ganchos para falda",
+    "total_tickets": 7,
+    "tiempo_promedio_productivo": "01:04:11"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Foco fundido espejo vanidoso",
+    "total_tickets": 7,
+    "tiempo_promedio_productivo": "01:11:51"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Limpiar ventilador",
+    "total_tickets": 7,
+    "tiempo_promedio_productivo": "00:48:03"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Hongo en aire acondicionado",
+    "total_tickets": 6,
+    "tiempo_promedio_productivo": "01:10:55"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Colocar mosquitero en ventana baño",
+    "total_tickets": 6,
+    "tiempo_promedio_productivo": "01:00:27"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Cambiar secadora",
+    "total_tickets": 6,
+    "tiempo_promedio_productivo": "01:06:07"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Cambiar silicón puerta cristal baño",
+    "total_tickets": 6,
+    "tiempo_promedio_productivo": "01:15:09"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Colocar sillas en terraza",
+    "total_tickets": 6,
+    "tiempo_promedio_productivo": "02:12:31"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Cambiar cabeza de regadera",
+    "total_tickets": 6,
+    "tiempo_promedio_productivo": "01:56:00"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Plafón dañado",
+    "total_tickets": 6,
+    "tiempo_promedio_productivo": "01:03:48"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Secar área - Pasillo",
+    "total_tickets": 6,
+    "tiempo_promedio_productivo": "01:13:10"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Foco fundido en cabecera",
+    "total_tickets": 6,
+    "tiempo_promedio_productivo": "00:41:26"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Colocar refrigerador",
+    "total_tickets": 6,
+    "tiempo_promedio_productivo": "01:06:44"
+  },
+  {
+    "departamento": "Bell Boys / Valet Parking",
+    "etiqueta": "Cortar sinchos en equipaje",
+    "total_tickets": 6,
+    "tiempo_promedio_productivo": "00:16:31"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Mueble despegado",
+    "total_tickets": 6,
+    "tiempo_promedio_productivo": "00:59:52"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Colocar plancha",
+    "total_tickets": 5,
+    "tiempo_promedio_productivo": "01:55:03"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Papelería de pluma",
+    "total_tickets": 5,
+    "tiempo_promedio_productivo": "00:52:47"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Retirar cama extra",
+    "total_tickets": 5,
+    "tiempo_promedio_productivo": "00:57:17"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Gorra de baño",
+    "total_tickets": 5,
+    "tiempo_promedio_productivo": "00:51:13"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Lavabo caido",
+    "total_tickets": 5,
+    "tiempo_promedio_productivo": "01:42:07"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Fuga en pasillo",
+    "total_tickets": 5,
+    "tiempo_promedio_productivo": "00:40:54"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Cabecera despegada",
+    "total_tickets": 5,
+    "tiempo_promedio_productivo": "00:55:17"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Puerta closet atorada",
+    "total_tickets": 5,
+    "tiempo_promedio_productivo": "00:45:06"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Cilindro de chapa fuera",
+    "total_tickets": 5,
+    "tiempo_promedio_productivo": "00:37:16"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Aromatizar la habitación",
+    "total_tickets": 4,
+    "tiempo_promedio_productivo": "01:30:55"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Cambiar silicón puerta de regadera",
+    "total_tickets": 4,
+    "tiempo_promedio_productivo": "01:27:53"
+  },
+  {
+    "departamento": "Bell Boys / Valet Parking",
+    "etiqueta": "Traer cosas olvidadas en un automovil",
+    "total_tickets": 4,
+    "tiempo_promedio_productivo": "01:54:39"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Colocar azucar",
+    "total_tickets": 4,
+    "tiempo_promedio_productivo": "00:44:13"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Colocar mesa en terreza",
+    "total_tickets": 4,
+    "tiempo_promedio_productivo": "00:20:58"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Tina resanar",
+    "total_tickets": 4,
+    "tiempo_promedio_productivo": "00:23:56"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Retirar basura",
+    "total_tickets": 4,
+    "tiempo_promedio_productivo": "03:28:54"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Caja de seguridad cerrada por hpd anterior reporta hpd",
+    "total_tickets": 4,
+    "tiempo_promedio_productivo": "00:58:40"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Silla para banco (Handycap)",
+    "total_tickets": 4,
+    "tiempo_promedio_productivo": "01:19:31"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Línea de drenaje",
+    "total_tickets": 3,
+    "tiempo_promedio_productivo": "00:39:44"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Hielera",
+    "total_tickets": 3,
+    "tiempo_promedio_productivo": "05:56:21"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Formato de lavanderia",
+    "total_tickets": 3,
+    "tiempo_promedio_productivo": "01:13:27"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Tazas",
+    "total_tickets": 3,
+    "tiempo_promedio_productivo": "01:09:55"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Puerta de comunicación abrir",
+    "total_tickets": 3,
+    "tiempo_promedio_productivo": "00:43:43"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Tintorería - Planchado normal",
+    "total_tickets": 3,
+    "tiempo_promedio_productivo": "01:35:00"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Limpiar regadera",
+    "total_tickets": 3,
+    "tiempo_promedio_productivo": "01:01:10"
+  },
+  {
+    "departamento": "Bell Boys / Valet Parking",
+    "etiqueta": "Silla de ruedas",
+    "total_tickets": 3,
+    "tiempo_promedio_productivo": "00:32:15"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Fuga de regadera",
+    "total_tickets": 3,
+    "tiempo_promedio_productivo": "01:26:38"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Colocar acondicionador",
+    "total_tickets": 3,
+    "tiempo_promedio_productivo": "00:24:15"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Limpieza de regadera",
+    "total_tickets": 3,
+    "tiempo_promedio_productivo": "01:16:51"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Cambiar fundas de almohada",
+    "total_tickets": 3,
+    "tiempo_promedio_productivo": "00:29:44"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Telefono - Limpieza",
+    "total_tickets": 3,
+    "tiempo_promedio_productivo": "01:22:29"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Toalla manos Extra",
+    "total_tickets": 3,
+    "tiempo_promedio_productivo": "00:30:52"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Falta toallero",
+    "total_tickets": 2,
+    "tiempo_promedio_productivo": "01:25:09"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Lavabo foco fundido",
+    "total_tickets": 2,
+    "tiempo_promedio_productivo": "00:42:51"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Cable roto de telefono",
+    "total_tickets": 2,
+    "tiempo_promedio_productivo": "07:06:55"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Cuadro despegado",
+    "total_tickets": 2,
+    "tiempo_promedio_productivo": "00:29:13"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Edredon",
+    "total_tickets": 2,
+    "tiempo_promedio_productivo": "00:18:23"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Indicadores de agua en llave lavabo",
+    "total_tickets": 2,
+    "tiempo_promedio_productivo": "01:07:38"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Ruido en habitación favor revisar",
+    "total_tickets": 2,
+    "tiempo_promedio_productivo": "00:45:23"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Lavandería - Serv. Esp. Nocturno (50% sobrecargo)",
+    "total_tickets": 2,
+    "tiempo_promedio_productivo": "06:13:17"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Kit de vanidad",
+    "total_tickets": 2,
+    "tiempo_promedio_productivo": "00:44:18"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Cambiar colchón",
+    "total_tickets": 2,
+    "tiempo_promedio_productivo": "01:24:50"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Toalla facial - Extra",
+    "total_tickets": 2,
+    "tiempo_promedio_productivo": "00:54:09"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Hacer cortesia nocturna",
+    "total_tickets": 2,
+    "tiempo_promedio_productivo": "01:49:29"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Acrilico de baño caido",
+    "total_tickets": 2,
+    "tiempo_promedio_productivo": "00:48:15"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Bisagra despegada",
+    "total_tickets": 2,
+    "tiempo_promedio_productivo": "00:40:36"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Chapa de puerta de comunicación",
+    "total_tickets": 2,
+    "tiempo_promedio_productivo": "00:46:15"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Colocar té extra",
+    "total_tickets": 2,
+    "tiempo_promedio_productivo": "02:17:22"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Foco área café",
+    "total_tickets": 2,
+    "tiempo_promedio_productivo": "01:21:41"
+  },
+  {
+    "departamento": "Bell Boys / Valet Parking",
+    "etiqueta": "Cambio de habitación",
+    "total_tickets": 2,
+    "tiempo_promedio_productivo": "01:45:20"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Acrilico lampara caido",
+    "total_tickets": 2,
+    "tiempo_promedio_productivo": "01:03:25"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Colocar burro de planchar",
+    "total_tickets": 2,
+    "tiempo_promedio_productivo": "00:22:56"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Limpiar teléfono",
+    "total_tickets": 2,
+    "tiempo_promedio_productivo": "02:24:12"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Puerta de mueble no cierra",
+    "total_tickets": 2,
+    "tiempo_promedio_productivo": "01:17:11"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Gomas de buró",
+    "total_tickets": 2,
+    "tiempo_promedio_productivo": "01:08:01"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Toalla facial - Cambiar por secas",
+    "total_tickets": 2,
+    "tiempo_promedio_productivo": "01:19:15"
+  },
+  {
+    "departamento": "Tecnología",
+    "etiqueta": "Internet - Conexión lenta",
+    "total_tickets": 2,
+    "tiempo_promedio_productivo": "01:40:49"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Colocar telefono",
+    "total_tickets": 1,
+    "tiempo_promedio_productivo": "03:25:23"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Limpiar área pública",
+    "total_tickets": 1,
+    "tiempo_promedio_productivo": "00:16:08"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Puerta abrir closet",
+    "total_tickets": 1,
+    "tiempo_promedio_productivo": "01:00:41"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Toalla manos - Check in no hay",
+    "total_tickets": 1,
+    "tiempo_promedio_productivo": "01:18:58"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Lavabo foco fundido en base",
+    "total_tickets": 1,
+    "tiempo_promedio_productivo": "00:06:51"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Pantuflas",
+    "total_tickets": 1,
+    "tiempo_promedio_productivo": "00:05:41"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "No aseo",
+    "total_tickets": 1,
+    "tiempo_promedio_productivo": "05:14:39"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Colocar cabecera",
+    "total_tickets": 1,
+    "tiempo_promedio_productivo": "00:30:40"
+  },
+  {
+    "departamento": "Ama de Llaves",
+    "etiqueta": "Puerta de comunicación cerrar",
+    "total_tickets": 1,
+    "tiempo_promedio_productivo": "00:40:14"
+  },
+  {
+    "departamento": "Bell Boys / Valet Parking",
+    "etiqueta": "Llave desprogramada",
+    "total_tickets": 1,
+    "tiempo_promedio_productivo": "01:21:31"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Elevador huesped atorado en edificio F",
+    "total_tickets": 1,
+    "tiempo_promedio_productivo": "00:20:08"
+  },
+  {
+    "departamento": "Tecnología",
+    "etiqueta": "Internet - Datos no acepta más dispositivos",
+    "total_tickets": 1,
+    "tiempo_promedio_productivo": "00:17:28"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Puerta hidraulico no cierra",
+    "total_tickets": 1,
+    "tiempo_promedio_productivo": "02:45:50"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Cespol / desague despegado",
+    "total_tickets": 1,
+    "tiempo_promedio_productivo": "00:34:09"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Persiana forzada",
+    "total_tickets": 1,
+    "tiempo_promedio_productivo": "00:16:32"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Tubo en closet despegado",
+    "total_tickets": 1,
+    "tiempo_promedio_productivo": "01:01:58"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Caja de seguridad cerrada por hpd anterior reporta BB",
+    "total_tickets": 1,
+    "tiempo_promedio_productivo": "00:05:45"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Lavabo roto",
+    "total_tickets": 1,
+    "tiempo_promedio_productivo": "01:56:45"
+  },
+  {
+    "departamento": "Mantenimiento",
+    "etiqueta": "Base plancha despegada",
+    "total_tickets": 1,
+    "tiempo_promedio_productivo": "02:53:51"
+  }
+]

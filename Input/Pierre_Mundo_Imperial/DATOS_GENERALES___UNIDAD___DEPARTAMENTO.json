@@ -1,0 +1,50 @@
+[
+  {
+    "Departamento": "Mantenimiento",
+    "Cantidad_Tickets": 8523,
+    "Tiempo_Productivo_Total": "10912:44:0.",
+    "Promedio_Tiempo_Productivo": "01:16:49.391059",
+    "Promedio_Tiempo_Estimado": "00:21:24.7588",
+    "Porcentaje_Cumplimiento": "27.87"
+  },
+  {
+    "Departamento": "Ama de Llaves",
+    "Cantidad_Tickets": 4161,
+    "Tiempo_Productivo_Total": "6859:32:27",
+    "Promedio_Tiempo_Productivo": "01:38:54.714732",
+    "Promedio_Tiempo_Estimado": "00:28:21.2256",
+    "Porcentaje_Cumplimiento": "28.67"
+  },
+  {
+    "Departamento": "Bell Boys / Valet Parking",
+    "Cantidad_Tickets": 1796,
+    "Tiempo_Productivo_Total": "958:28:49",
+    "Promedio_Tiempo_Productivo": "00:32:01.229955",
+    "Promedio_Tiempo_Estimado": "00:20:00.0000",
+    "Porcentaje_Cumplimiento": "62.46"
+  },
+  {
+    "Departamento": "Prevención de Riesgos",
+    "Cantidad_Tickets": 371,
+    "Tiempo_Productivo_Total": "770:13:24",
+    "Promedio_Tiempo_Productivo": "02:04:33.865229",
+    "Promedio_Tiempo_Estimado": "00:20:00.0000",
+    "Porcentaje_Cumplimiento": "16.06"
+  },
+  {
+    "Departamento": "Tecnología",
+    "Cantidad_Tickets": 48,
+    "Tiempo_Productivo_Total": "118:15:27",
+    "Promedio_Tiempo_Productivo": "02:27:49.312500",
+    "Promedio_Tiempo_Estimado": "00:20:00.0000",
+    "Porcentaje_Cumplimiento": "13.53"
+  },
+  {
+    "Departamento": "Servicio Imperial",
+    "Cantidad_Tickets": 25,
+    "Tiempo_Productivo_Total": "50:16:0.",
+    "Promedio_Tiempo_Productivo": "02:00:38.400000",
+    "Promedio_Tiempo_Estimado": "00:20:00.0000",
+    "Porcentaje_Cumplimiento": "16.58"
+  }
+]
