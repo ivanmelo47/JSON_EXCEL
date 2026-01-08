@@ -266,7 +266,7 @@ JOIN areas a ON hl.areas_idAreas = a.idAreas
 JOIN unidad u ON a.unidad_idUnidad = u.idUnidad
 WHERE mt.fCreacionTicket BETWEEN '2025-01-01 00:00:00' AND '2025-12-31 23:59:59'
 AND mt.estatusTicket = 'Cerrado'
-AND u.idUnidad = 2
+AND u.idUnidad = 1
 GROUP BY d.nombre_departamento, e.nombreEtiqueta
 ORDER BY total_tickets DESC;
 
